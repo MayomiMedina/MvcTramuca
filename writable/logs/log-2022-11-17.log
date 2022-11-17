@@ -1,0 +1,1271 @@
+CRITICAL - 2022-11-17 03:37:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 03:37:52 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 03:42:53 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 03:44:18 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 04:06:31 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 04:06:34 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 04:09:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 04:09:39 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 04:39:16 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 04:39:18 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 04:39:21 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 04:40:15 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:02:01 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:17:55 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:20:14 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:20:15 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:20:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:29:53 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:29:55 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:29:55 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:30:38 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:30:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:39:57 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:40:00 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:40:01 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:40:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:40:03 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:40:04 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:40:04 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:42:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:42:37 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:42:38 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:42:39 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:43:14 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:51:03 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:51:07 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:52:08 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:52:08 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:53:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:53:27 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:53:28 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:53:28 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:54:20 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:54:23 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:55:24 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:55:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:56:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:56:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:56:27 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:56:31 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:57:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:57:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:57:27 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:57:28 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:57:29 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 05:57:29 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 06:00:41 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 06:01:24 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 06:01:30 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 06:03:04 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 06:09:11 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 06:10:30 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2022-11-17 00:25:29 --> mysqli_sql_exception: Not unique table/alias: 'users' in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 00:25:29 --> Not unique table/alias: 'users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = :usuario:
+AND `contra` = :contra:
+ LIMIT 1', [...], false)
+ 5 APPPATH\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 00:29:21 --> mysqli_sql_exception: Not unique table/alias: 'users' in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 00:29:21 --> Not unique table/alias: 'users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = :usuario:
+AND `contra` = :contra:
+ LIMIT 1', [...], false)
+ 5 APPPATH\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 00:31:32 --> mysqli_sql_exception: Not unique table/alias: 'users' in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 00:31:32 --> Not unique table/alias: 'users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = :usuario:
+AND `contra` = :contra:', [...], false)
+ 5 APPPATH\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 00:32:49 --> mysqli_sql_exception: Not unique table/alias: 'users' in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 00:32:49 --> Not unique table/alias: 'users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`, `users`
+WHERE `usuario` = :usuario:
+AND `contra` = :contra:
+ LIMIT 1', [...], false)
+ 5 APPPATH\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 00:38:06 --> mysqli_sql_exception: Table 'autopartes_calidad.users' doesn't exist in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 00:38:06 --> Table 'autopartes_calidad.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usuario` = :usuario:
+AND `contra` = :contra:
+ LIMIT 1', [...], false)
+ 5 APPPATH\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 00:38:43 --> mysqli_sql_exception: Not unique table/alias: 'usuario' in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 00:38:43 --> Not unique table/alias: 'usuario'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `usuario`, `usuario`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuario`, `usuario`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuario`, `usuario`
+WHERE `usuario` = \'\\\'esl1\\\'\'
+AND `contra` = \'\\\'111\\\'\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`, `usuario`
+WHERE `usuario` = :usuario:
+AND `contra` = :contra:
+ LIMIT 1', [...], false)
+ 5 APPPATH\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 00:55:58 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH\Models\UsersModel.php on line 44.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 00:55:58 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH\Models\UsersModel.php on line 44.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 00:55:58 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH\Models\UsersModel.php on line 44.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 00:55:59 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH\Models\UsersModel.php on line 44.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 00:58:53 --> App\Models\UsersModel::loginUser(): Argument #1 ($userName) must be of type string, null given, called in C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php on line 30
+in APPPATH\Models\UsersModel.php on line 35.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 00:59:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `usuario`' at line 2 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 00:59:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `usuario`' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, contra FROM usuario WHERE usuario = \'esl1\' AND contra = \'111\' LIMIT 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, contra FROM usuario WHERE usuario = \'esl1\' AND contra = \'111\' LIMIT 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, contra FROM usuario WHERE usuario = \'esl1\' AND contra = \'111\' LIMIT 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, contra FROM usuario WHERE usuario = \'esl1\' AND contra = \'111\' LIMIT 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:00:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `usuario`' at line 2 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:00:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `usuario`' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, contra FROM usuario WHERE usuario = \'esl1\' AND contra = \'111\' LIMIT 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, contra FROM usuario WHERE usuario = \'esl1\' AND contra = \'111\' LIMIT 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, contra FROM usuario WHERE usuario = \'esl1\' AND contra = \'111\' LIMIT 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, contra FROM usuario WHERE usuario = \'esl1\' AND contra = \'111\' LIMIT 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:01:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:01:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:01:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:01:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:01:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:01:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:03:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:03:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:03:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:03:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:03:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:03:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:03:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:03:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:03:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:03:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:03:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:03:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM ``usuario`` WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM ``usuario`` WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM ``usuario`` WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM ``usuario`` WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:03:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:03:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM ``usuario`` WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM ``usuario`` WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM ``usuario`` WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM ``usuario`` WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:04:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1 in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:04:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `usuario`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT idusu` AS `id`, `usuario`, `contra FROM usuario WHERE usuario = esl1 AND contra = 111 LIMIT` 1
+FROM `usuario`', [], false)
+ 5 APPPATH\Models\UsersModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 01:09:38 --> mysqli_sql_exception: Not unique table/alias: 'usuario' in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `idusu` ...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idusu` ...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idusu` ...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `idusu` ...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\app\Models\UsersModel.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+#6 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-17 01:09:38 --> Not unique table/alias: 'usuario'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `idusu` AS `id`, `usuario`, `contra`
+FROM `usuario`, `usuario`
+WHERE `usuario` = \'esl1\'
+AND `contra` = \'111\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idusu` AS `id`, `usuario`, `contra`
+FROM `usuario`, `usuario`
+WHERE `usuario` = \'esl1\'
+AND `contra` = \'111\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idusu` AS `id`, `usuario`, `contra`
+FROM `usuario`, `usuario`
+WHERE `usuario` = \'esl1\'
+AND `contra` = \'111\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `idusu` AS `id`, `usuario`, `contra`
+FROM `usuario`, `usuario`
+WHERE `usuario` = :usuario:
+AND `contra` = :contra:
+ LIMIT 1', [...], false)
+ 5 APPPATH\Models\UsersModel.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(30): App\Models\UsersModel->loginUser('esl1', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 09:22:06 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 09:22:12 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 09:22:38 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-17 02:24:03 --> App\Models\UsersModel::loginUser(): Argument #1 ($userName) must be of type string, null given, called in C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php on line 29
+in APPPATH\Models\UsersModel.php on line 68.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UsersModel->loginUser(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 11:24:08 --> App\Models\UsersModel::loginUser(): Argument #1 ($userName) must be of type string, null given, called in C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php on line 29
+in APPPATH\Models\UsersModel.php on line 68.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UsersModel->loginUser(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:19:40 --> Undefined variable $conexion
+in APPPATH\Views\cliente\cliente.php on line 63.
+ 1 APPPATH\Views\cliente\cliente.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conexion', 'APPPATH\\Views\\cliente\\cliente.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cliente\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:24:12 --> App\Models\UsersModel::loginUser(): Argument #1 ($userName) must be of type string, null given, called in C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php on line 29
+in APPPATH\Models\UsersModel.php on line 68.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UsersModel->loginUser(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:24:27 --> Undefined variable $conexion
+in APPPATH\Views\cliente\cliente.php on line 63.
+ 1 APPPATH\Views\cliente\cliente.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conexion', 'APPPATH\\Views\\cliente\\cliente.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cliente\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:28:28 --> Undefined variable $conexion
+in APPPATH\Views\cliente\cliente.php on line 63.
+ 1 APPPATH\Views\cliente\cliente.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conexion', 'APPPATH\\Views\\cliente\\cliente.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cliente\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:28:31 --> Undefined variable $conexion
+in APPPATH\Views\cliente\cliente.php on line 63.
+ 1 APPPATH\Views\cliente\cliente.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conexion', 'APPPATH\\Views\\cliente\\cliente.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cliente\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:32:41 --> Undefined variable $conexion
+in APPPATH\Views\cliente\cliente.php on line 63.
+ 1 APPPATH\Views\cliente\cliente.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conexion', 'APPPATH\\Views\\cliente\\cliente.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cliente\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:33:55 --> Unmatched '}'
+in APPPATH\Views\cliente\cliente.php on line 93.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 3 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:33:56 --> Unmatched '}'
+in APPPATH\Views\cliente\cliente.php on line 93.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 3 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:33:57 --> Unmatched '}'
+in APPPATH\Views\cliente\cliente.php on line 93.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 3 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:34:24 --> Undefined variable $row
+in APPPATH\Views\cliente\cliente.php on line 67.
+ 1 APPPATH\Views\cliente\cliente.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\cliente\\cliente.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cliente\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:34:25 --> Undefined variable $row
+in APPPATH\Views\cliente\cliente.php on line 67.
+ 1 APPPATH\Views\cliente\cliente.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\cliente\\cliente.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cliente\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:34:26 --> Undefined variable $row
+in APPPATH\Views\cliente\cliente.php on line 67.
+ 1 APPPATH\Views\cliente\cliente.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\cliente\\cliente.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cliente\\cliente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cliente/cliente', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(11): view('cliente/cliente')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 14:57:25 --> App\Models\UsersModel::loginUser(): Argument #1 ($userName) must be of type string, null given, called in C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php on line 29
+in APPPATH\Models\UsersModel.php on line 68.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UsersModel->loginUser(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 15:03:48 --> Unmatched '}'
+in APPPATH\Views\compras\compras.php on line 85.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('compras/compras', [], true)
+ 3 APPPATH\Controllers\ComprasController.php(11): view('compras/compras')
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ComprasController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComprasController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 15:12:11 --> App\Models\UsersModel::loginUser(): Argument #1 ($userName) must be of type string, null given, called in C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php on line 29
+in APPPATH\Models\UsersModel.php on line 68.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UsersModel->loginUser(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 15:14:20 --> App\Models\UsersModel::loginUser(): Argument #1 ($userName) must be of type string, null given, called in C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php on line 29
+in APPPATH\Models\UsersModel.php on line 68.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UsersModel->loginUser(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

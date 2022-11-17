@@ -1,0 +1,41 @@
+body{
+   background-image: url('../img/fondo_login.png'); 
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.input{
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    outline:  none;
+    border: none;
+    border-bottom: 2px solid silver;
+    font-size: 18px;
+
+}
+.input label{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.input input:focus ~label,
+.input input:valid ~label{
+    transform:  translateY(-20px);
+    font-size: 16px;
+    color: #86c7ed;
+}
+.input input:focus ,
+.input input:valid {
+border-color: #377aa0;
+}
+
+			

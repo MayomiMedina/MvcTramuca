@@ -5,15 +5,22 @@ html,body{
 a,button{
     cursor:pointer;    
 }
-@keyframes pan{
-    100%{background-position: 15% 50%;}
-}
+
 body{
-    background-image: url('../Image/fondo_login.png'); 
+    display:grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url('../img/fondo_login.png'); 
     background-repeat: no-repeat;
-    background-size: cover;
-  
- }
+    background-size: cover;    
+    
+}
+@media (width>=500px){
+    body{
+        padding: 0;
+    }
+}
 .login-card{
     width: 100%;
     padding: 70px 30px 44px;
@@ -36,7 +43,7 @@ body{
     margin: 0 0 30px;
     font-weight: 500;
     font-size: 16px;
-    color: rgba(3, 113, 187, 0.38);
+    color: rgba(0,0,0,0.38);
 }
 .login-form{
     width:100%;

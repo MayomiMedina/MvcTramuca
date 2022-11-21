@@ -33,7 +33,8 @@ class Home extends BaseController
         return $this->response->setJSON([
             'estado' => 'success',
             'msg' => 'Iniciando sesión',
-            'ruta' => base_url(((int) ($user->idcargo)) === 1 ? 'Admin' : 'Ventas'),
+            'ruta' => base_url(((int) ($user->idcargo)) === 1 ? 'Admin':'ventas'),
+            //'ruta' => base_url(((int) ($user->idcargo)) === 1 ? 'AdminUsuController':'AdminUsuController'),
         ]);
     }
 }

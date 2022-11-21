@@ -31,6 +31,8 @@
             <br>
             <button type="submit" class="btn btn-primary"><b>INGRESAR</b></button>            
             <a href="<?= base_url(); ?>/RecuLoginController">olvidaste contraseña?</a>
+
+            <a  href="<?= base_url(); ?>/AdminUsuController">admin</a>
            
        
         </form>

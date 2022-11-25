@@ -45,7 +45,7 @@
                     </form>
                     
                     <hr> 
-                    <p></p>
+                    <p></p>                    
                     <table class="table table-striped table-bordered">
                       <thead class="thead-dark">
                       <tr class="table-bordered">                                                
@@ -53,46 +53,19 @@
                         <th>Apellidos</th>
                         <th>Celular</th>
                         <th>DNI</th>
-                        <th>Direccion</th>
-                        <th>Opciones</th>
+                        <th>Direccion</th>  
                       </tr>
                       </thead>
                       <tbody>
-   <!--                    <?php 
-                //        $consul="SELECT *from tb_cliente";
-                 //       $resul=mysqli_query($conexion,$consul);
-                 //       while($row=mysqli_fetch_assoc($resul)){
-                        ?>
+                      <?php foreach($s as $pro):?>
                         <tr>
-                            <td><?php //echo $row['nombre'];?></td>
-                          <td><?php //echo $row['apellido'];?></td>
-                           <td><?php //echo $row['celular'];?></td>  
-                           <td><?php //echo $row['DNI'];?></td>
-                            <td><?php //echo $row['direccion'];?></td>                
-                            <td><button type="button" class="btn" title="Editar" data-bs-toggle="modal" 
-                            data-bs-target="#modalclienteupdate"
-                                 data-bs-id="<?php // echo $row['id_cliente'];?>"
-                                 data-bs-nom="<?php ///echo $row['nombre'];?>"
-                                 data-bs-ape="<?php //echo $row['apellido'];?>"
-                                 data-bs-cel="<?php //echo $row['celular'];?>"
-                                 data-bs-DNI="<?php //echo $row['DNI'];?>"
-                                 data-bs-dir="<?php //echo $row['direccion'];?>"
-                                 >
-                                 <i class="fas fa-edit fa-2x" style="color:tomato"></i>
-
-                              </button>
-                            <button type="button" class="btn" title="Eliminar" data-bs-toggle="modal" 
-                              data-bs-target="#eliminarclientes"
-                            data-bs-id="
-                            <?php //echo $row['id_cliente'];?>"
-                            data-bs-nom="<?php //echo $row['nombre'];?>">
-                              <i class="fa-solid fa-trash fa-2x"></i>                            
-                              </button>
-                            </td>
+                            <td><?=$pro['nombre'];?></td>
+                            <td><?=$pro['apellido'];?></td>
+                            <td><?=$pro['celular'];?></td>                   
+                            <td><?=$pro['DNI'];?></td> 
+                            <td><?=$pro['direccion'];?></td> 
                         </tr>
-                    <?php
-                   // }
-                    ?> -->
+                        <?php endforeach; ?>
                       </tbody>
                     </table>
               
@@ -232,7 +205,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/clientereg.php">
+        <form method="POST" action="<?= base_url(); ?>/ClienteController/guardar"?>">
           <div class="row">
             <div class="col-xs-6 col-sm-3 col-md-6 form-group">
               <label for="recipient-name" class="col-form-label">Nombre:</label>

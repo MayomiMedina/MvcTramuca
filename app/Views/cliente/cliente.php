@@ -17,36 +17,19 @@
             <div class="col-md-12 col-lg-12 col-sm-12 px-4 ">
                 <div class="row">
 
-                    <div class="mb-3 col-md-2 d-grid gap-1 pt-1">
-                        <button type="button" onclick="toggleModal()" data-bs-toggle="modal" data-bs-target="#modalcliente"><b>Registrar Cliente</b></button>
-                    </div>
-                    <div
-                      class="modal-background"
-                      onclick="toggleModal()"
-                      >
-                    </div>
-                    <div class="mb-3 col-md-2 d-grid gap-1 pt-1">
-                        <span class="btn btn-info " onclick="window.print()"><b>Imprimir</b></span>
-                    </div>
-                        
-                    <div class="mb-3 col-md-2">
-                    </div>
-                    <div class="mb-3 col-md-2">
-                    </div>
-                    <div class="mb-3 col-md-2 d-grid gap-1 pt-1" data-a-target="tray-search-input">
+                <div class="col-md-4 d-grid gap-1 pt-1">
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalproducto"> Registrar Cliente</button>
 
-                    <form  action="../buscar/buscar_cliente.php" class="btn_new" class="form_search">
-                    <input type="number" class="d-flex p-2 form-control" name="busqueda" id="busqueda" required="Ingrese un DNI" pattern="[0-9]{8}"  placeholder="DNI" >
-                    
                     </div>
-                    <div class="mb-3 col-md-2 d-grid gap-1 pt-1">                    
-                    <input type="submit" value="Buscar cliente" class="btn btn-outline-success btn_search" >                    
+             
+
+                    <div class="col-md-4 d-grid gap-1 pt-1">
+                        <span class="btn btn-info " onclick="window.print()"> Imprimir</span>
                     </div>
-                    </form>
-                    
+                                                               
                     <hr> 
                     <p></p>                    
-                    <table class="table table-striped table-bordered">
+                    <table class="table table-striped table-bordered" id="tablapro">
                       <thead class="thead-dark">
                       <tr class="table-bordered">                                                
                         <th>Nombre</th>
@@ -64,6 +47,26 @@
                             <td><?=$pro['celular'];?></td>                   
                             <td><?=$pro['DNI'];?></td> 
                             <td><?=$pro['direccion'];?></td> 
+                            <td><button type="button" class="btn" title="Editar" data-bs-toggle="modal" 
+                            data-bs-target="#modalclienteupdate"
+                                 data-bs-id="<?= $pro['id_cliente'];?>"
+                                 data-bs-nom="<?= $pro ['nombre'];?>"
+                                 data-bs-ape="<?= $pro ['apellido'];?>"
+                                 data-bs-cel="<?= $pro ['celular'];?>"
+                                 data-bs-DNI="<?= $pro ['DNI'];?>"
+                                 data-bs-dir="<?= $pro ['direccion'];?>"
+                                 >
+                                 <i class="fas fa-edit fa-2x" style="color:tomato"></i>
+
+                              </button>
+                              <?php //AQUI ESTA EL BOTON BORRAR LUEGO VAS A LA LINEA 90?>                              
+                              <button type="button" class="btn" title="Eliminar" data-bs-toggle="modal" 
+                              data-bs-target="#eliminarclientes"
+                              data-bs-id="<?= $pro['id_cliente'];?>"
+                              data-bs-nom="<<?= $pro['nombre'];?>">
+                              <i class="fa-solid fa-trash fa-2x"></i>                            
+                              </button>
+                            </td>
                         </tr>
                         <?php endforeach; ?>
                       </tbody>
@@ -78,7 +81,14 @@
     </div>    
 </div>
 
+<script>
+var tabla=document.querySelector("#tablapro");
+var datatable=new DataTable(tabla);
+</script>    
 
+<?PHP /*OKEY SIGUIENDO CON EL RECORRIDO ESTE ES EL MODAL HASTA LA LINEA 110 FIJATE EL FORM Y LA ACTION A DONDE
+ LO MANDA AL CLIENTECONTROLLER A LA FUNCION BORRAR
+ PERO PRIMERO VE A LA LINEA 162  PARA QUE ENTIENDAS EL MODAL*/?>
 <div class="modal fade" id="eliminarclientes" tabindex="-1" aria-labelledby="exampleModalLabelUp" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -87,8 +97,8 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/clienteelimi.php">          
-              <input type="hidden" class="form-control" id="idclientess" name="idclientess">
+        <form method="POST" action="<?= base_url(); ?>/ClienteController/borrar"?>">          
+              <input type="text" class="form-control" id="idclientess" name="idclientess">
               
             <div class="modal-footer">
                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
@@ -110,7 +120,8 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/clienteupdate.php">
+        
+        <form method="POST" action="<?= base_url(); ?>/ClienteController/editar"?>">
 
         <input type="hidden" class="form-control" id="idcliente" name="idcliente">
         <div class="row">            
@@ -149,8 +160,12 @@
   </div>
 </div>
 
+<?PHP /*OKEY YA ESTAS AQUI? CREO QUE SI  VETE A LA LINEA 191 ANALIZA BIEN TODA ESAS LINEA ES BIEN FACIL
+ DE ENTENDER, SOBRAO LO ENTIENDES c:
 
-<!-- <script>
+ si entendiste el borrar entenderas el modificar es lo mismo empieza en la linea 166 hasta el 191 todo eso 
+ es editat*/?>
+ <script>
     var exampleModalas = document.getElementById('modalclienteupdate')
     exampleModalas.addEventListener('show.bs.modal', function(event) {
       // Button that triggered the modal
@@ -194,7 +209,7 @@
            modalBodyInput.value = recipient
 
     })
-  </script> -->
+  </script> 
 
 
 <div class="modal fade" id="modalcliente" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -242,7 +257,7 @@
   </div>
 </div>
 
-<script>
+
 
 
 

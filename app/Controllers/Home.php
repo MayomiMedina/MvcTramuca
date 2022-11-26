@@ -35,6 +35,10 @@ class Home extends BaseController
             'msg' => 'Iniciando sesión',
             'ruta' => base_url(((int) ($user->idcargo)) === 1 ? 'Admin':'ventas'),
             //'ruta' => base_url(((int) ($user->idcargo)) === 1 ? 'AdminUsuController':'AdminUsuController'),
-        ]);
+        ]);        
+    }
+    public function login2(){
+        $pro=new UsersModel();
+        
     }
 }

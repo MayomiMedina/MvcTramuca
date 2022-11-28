@@ -1,6 +1,8 @@
 <?= $this->extend('plantillas/plantillaAdministrador.php') ?>
 
 <?php $this->section('css'); ?>
+<link href="<?= base_url(); ?>/css/estilomodals.css" rel="stylesheet" type="text/css">
+
 <?php $this->endSection(); ?>
 
 <?php $this->section('contenido'); ?>
@@ -16,25 +18,13 @@
 
                     <div class="col-md-4 d-grid gap-1 pt-1">
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalproducto"> Registrar Producto</button>
-
                     </div>
              
-
                     <div class="col-md-4 d-grid gap-1 pt-1">
                         <span class="btn btn-info " onclick="window.print()"> Imprimir</span>
                     </div>
 
                     <hr>
-                    <!-- <div>
-                    <form  action="../buscar/buscar_productos.php" class="btn_new" class="form_search">
-                    <input type="text" class="form-control" name="busqueda" id="busqueda" required placeholder="Código" >
-                    <hr>
-                    <center>
-                    <input type="submit" value="Buscar producto" class="btn btn-outline-success btn_search">
-                    </center>
-                    </form>                    
-                    </div> -->
-
                     <p></p>                  
                     <table class="table table-striped table-bordered" id="tablapro">
                       <thead class="thead-dark">
@@ -47,58 +37,43 @@
                       </tr>
                       </thead>
                       <tbody>
-                     <!--  <?php 
-                     //  $consul="select 
-                      //  tb_producto.id_producto,
-                      //  tb_producto.producto,
-                       //   tb_producto.codigo,
-                       //   tb_producto.categoria,
-                       //   tb_producto.marca                         
-                      //   from tb_producto
-                       //  LEFT JOIN tb_compra on tb_compra.id_producto=tb_producto.id_producto
-                       //  GROUP BY tb_producto.producto,tb_producto.id_producto";
-                      //  $resul=mysqli_query($conexion,$consul);
-                      //  while($row=mysqli_fetch_assoc($resul)){
-                        ?>
+                      <?php foreach($s as $pro):?>
                         <tr>
-                            <td><?php //echo $row['producto'];?></td>
-                            <td><?php //echo $row['codigo'];?></td>
-                            <td><?php //echo $row['categoria'];?></td>
-                            <td><?php //echo $row['marca'];?></td>                          
-                           
-                            <td><button type="button" class="btn" data-bs-toggle="modal" 
+                        <td><?=$pro['producto'];?></td>
+                            <td><?=$pro['codigo'];?></td>
+                            <td><?=$pro['categoria'];?></td>
+                            <td><?=$pro['marca'];?></td>   
+
+                            <td><button type="button" class="btn" title="Editar" data-bs-toggle="modal" 
                             data-bs-target="#modalproductosupdate"
-                                 data-bs-id="<?php //echo $row['id_producto'];?>"
-                                 data-bs-pro="<?php //echo $row['producto'];?>"
-                                 data-bs-cod="<?php //echo $row['codigo'];?>"                                 
-                                 data-bs-cat="<?php //echo $row['categoria'];?>"
-                                 data-bs-mar="<?php //echo $row['marca'];?>"
+                                 data-bs-id="<?= $pro['id_producto'];?>"
+                                 data-bs-pro="<?= $pro['producto'];?>"
+                                 data-bs-cod="<?= $pro['codigo'];?>"                                 
+                                 data-bs-cat="<?= $pro['categoria'];?>"
+                                 data-bs-mar="<?= $pro['marca'];?>"
                                  >
                                  <i class="fas fa-edit fa-2x" style="color:tomato"></i>
+                            </button>
+                          
+                          <button type="button" class="btn" data-bs-toggle="modal" 
+                          data-bs-target="#eliminarproduc"
+                          data-bs-id="<?= $pro['id_producto'];?>"
+                          data-bs-cod="<?= $pro['codigo'];?>"
+                          data-bs-nom="<<?= $pro['producto'];?>">
+                        <i class="fa-solid fa-trash fa-2x"></i>                            
+                        </button> 
+                        </td>
+                      </tr>
+                    <?php endforeach; ?>
+                  </tbody>
+                </table>
 
-                              </button>
-                            <button type="button" class="btn" data-bs-toggle="modal" 
-                              data-bs-target="#eliminarproduc"
-                              data-bs-id="<?php //echo $row['id_producto'];?>"
-                              data-bs-cod="<?php //echo $row['codigo'];?>">
-                              <i class="fa-solid fa-trash fa-2x"></i>                            
-                              </button>
-                            </td>
-                        </tr>
-                    <?php
-                   // }
-                    ?> -->
-                      </tbody>
-                    </table>
-              
-                
-                </div>
-
+              </div>
             </div>
           </div>
         </div>
 
-    </div>    
+  </div>    
 </div>
 
 <script>
@@ -114,20 +89,16 @@ var datatable=new DataTable(tabla);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/productelimi.php">          
+        <form method="POST" action="<?= base_url(); ?>/ProductoController/borrar"?">          
               <input type="hidden" class="form-control" id="idproductos" name="idproductos">
               
             <div class="modal-footer">
                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                  <input type="submit" class="btn btn-primary" value="Eliminar">
-            </div>
-            
-        </form>
-
+            </div>    
+        </form>     
       </div>
 
-      
-      
     </div>
   </div>
 </div>
@@ -141,7 +112,7 @@ var datatable=new DataTable(tabla);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/producupdate.php">
+        <form method="POST" action="<?= base_url(); ?>/ProductoController/editar"?">
           
             <input type="hidden" class="form-control" id="idproducto" name="idproducto">
           <div class="row">
@@ -172,7 +143,6 @@ var datatable=new DataTable(tabla);
             </div>
             
         </form>
-
       </div>
 
       
@@ -237,7 +207,7 @@ var datatable=new DataTable(tabla);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/producreg.php">
+        <form method="POST" action="<?= base_url(); ?>/ProductoController/guardar"?">
         <div class="row">
           <div class="mb-3 col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Código:</label>

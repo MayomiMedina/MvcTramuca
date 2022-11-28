@@ -18,7 +18,7 @@
                 <div class="row">
 
                 <div class="col-md-4 d-grid gap-1 pt-1">
-                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalproducto"> Registrar Cliente</button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalcliente"> Registrar Cliente</button>
 
                     </div>
              
@@ -97,7 +97,7 @@ var datatable=new DataTable(tabla);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="<?= base_url(); ?>/ClienteController/borrar"?>">          
+        <form method="POST" action="<?= base_url(); ?>/ClienteController/borrar"?">          
               <input type="text" class="form-control" id="idclientess" name="idclientess">
               
             <div class="modal-footer">
@@ -121,7 +121,7 @@ var datatable=new DataTable(tabla);
       </div>
       <div class="modal-body">
         
-        <form method="POST" action="<?= base_url(); ?>/ClienteController/editar"?>">
+        <form method="POST" action="<?= base_url(); ?>/ClienteController/editar"?">
 
         <input type="hidden" class="form-control" id="idcliente" name="idcliente">
         <div class="row">            
@@ -220,7 +220,7 @@ var datatable=new DataTable(tabla);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="<?= base_url(); ?>/ClienteController/guardar"?>">
+        <form method="POST" action="<?= base_url(); ?>/ClienteController/guardar"?">
           <div class="row">
             <div class="col-xs-6 col-sm-3 col-md-6 form-group">
               <label for="recipient-name" class="col-form-label">Nombre:</label>

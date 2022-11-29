@@ -1,16 +1,16 @@
 :root {
 
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: #051E98;
   
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(5, 30, 152, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: rgb(5,30,152);
+  --bs-body-bg: #051E98;
 }
 
 *,
@@ -2396,7 +2396,7 @@ body {
 }
 
 .bg-dark {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 100%;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
@@ -4651,7 +4651,7 @@ body {
 }
 
 .sb-sidenav-dark {
-  background-color: #212529;
+  background-color: #894FB0;
   color: rgba(255, 255, 255, 0.5);
 }
 .sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {

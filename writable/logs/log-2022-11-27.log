@@ -1,313 +1,981 @@
-CRITICAL - 2022-11-27 17:58:36 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
-in SYSTEMPATH\Database\BaseResult.php on line 375.
- 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
- 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
- 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
- 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
- 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 17:58:39 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
-in SYSTEMPATH\Database\BaseResult.php on line 375.
- 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
- 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
- 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
- 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
- 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 17:58:44 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
-in SYSTEMPATH\Database\BaseResult.php on line 375.
- 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
- 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
- 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
- 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
- 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 17:58:46 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
-in SYSTEMPATH\Database\BaseResult.php on line 375.
- 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
- 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
- 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
- 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
- 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 17:58:47 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
-in SYSTEMPATH\Database\BaseResult.php on line 375.
- 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
- 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
- 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
- 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
- 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 17:59:04 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
-in SYSTEMPATH\Database\BaseResult.php on line 375.
- 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
- 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
- 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
- 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
- 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:51 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+
+CRITICAL - 2022-11-27 14:12:57 --> App\Models\UsersModel::loginUser(): Argument #1 ($userName) must be of type string, null given, called in C:\xampp\htdocs\TramucaCode\app\Controllers\Home.php on line 29
+in APPPATH\Models\UsersModel.php on line 68.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UsersModel->loginUser(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->LogIn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:54 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:55 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:56 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:56 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:56 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:56 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:56 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:57 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:59 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:10:59 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:11:07 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:11:09 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:11:11 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:11:12 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:11:13 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:11:14 --> Trying to access array offset on value of type null
-in APPPATH\Controllers\UsuarioController.php on line 19.
- 1 APPPATH\Controllers\UsuarioController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UsuarioController.php', 19)
- 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\UsuarioController->login2()
- 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
- 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:21:22 --> Class "App\Models\ModelAlma" not found
-in APPPATH\Controllers\AlmacenController.php on line 11.
- 1 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->index()
- 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
- 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-ERROR - 2022-11-27 18:21:49 --> mysqli_sql_exception: Unknown column 'id_cliente' in 'order clause' in C:\xampp\htdocs\MvcTramuca\system\Database\MySQLi\Connection.php:292
+ERROR - 2022-11-27 14:15:24 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
 Stack trace:
-#0 C:\xampp\htdocs\MvcTramuca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\MvcTramuca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\MvcTramuca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\MvcTramuca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\MvcTramuca\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\MvcTramuca\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
-#6 C:\xampp\htdocs\MvcTramuca\app\Controllers\AlmacenController.php(12): CodeIgniter\BaseModel->findAll()
-#7 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(928): App\Controllers\AlmacenController->index()
-#8 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
-#9 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\MvcTramuca\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\MvcTramuca\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
 #12 {main}
-CRITICAL - 2022-11-27 18:21:49 --> Unknown column 'id_cliente' in 'order clause'
+CRITICAL - 2022-11-27 14:15:24 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
 in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
-FROM `tb_almacen`
-ORDER BY `id_cliente` ASC', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
-FROM `tb_almacen`
-ORDER BY `id_cliente` ASC')
- 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
-FROM `tb_almacen`
-ORDER BY `id_cliente` ASC')
- 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
-FROM `tb_almacen`
-ORDER BY `id_cliente` ASC', [], false)
- 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
- 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
- 7 APPPATH\Controllers\AlmacenController.php(12): CodeIgniter\BaseModel->findAll()
- 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->index()
- 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
 10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-ERROR - 2022-11-27 18:26:28 --> mysqli_sql_exception: Unknown column 'id_cliente' in 'order clause' in C:\xampp\htdocs\MvcTramuca\system\Database\MySQLi\Connection.php:292
+ERROR - 2022-11-27 14:15:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_compra`, CONSTRAINT `tb_compra_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
 Stack trace:
-#0 C:\xampp\htdocs\MvcTramuca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\MvcTramuca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\MvcTramuca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\MvcTramuca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\MvcTramuca\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\MvcTramuca\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
-#6 C:\xampp\htdocs\MvcTramuca\app\Controllers\AlmacenController.php(12): CodeIgniter\BaseModel->findAll()
-#7 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(928): App\Controllers\AlmacenController->index()
-#8 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
-#9 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\MvcTramuca\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\MvcTramuca\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
 #12 {main}
-CRITICAL - 2022-11-27 18:26:28 --> Unknown column 'id_cliente' in 'order clause'
+CRITICAL - 2022-11-27 14:15:39 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_compra`, CONSTRAINT `tb_compra_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
 in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
-FROM `tb_almacen`
-ORDER BY `id_cliente` ASC', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
-FROM `tb_almacen`
-ORDER BY `id_cliente` ASC')
- 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
-FROM `tb_almacen`
-ORDER BY `id_cliente` ASC')
- 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
-FROM `tb_almacen`
-ORDER BY `id_cliente` ASC', [], false)
- 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
- 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
- 7 APPPATH\Controllers\AlmacenController.php(12): CodeIgniter\BaseModel->findAll()
- 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->index()
- 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
 10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:31:36 --> Undefined variable $s
-in APPPATH\Views\almacen\almacen.php on line 40.
- 1 APPPATH\Views\almacen\almacen.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'APPPATH\\Views\\almacen\\almacen.php', 40)
- 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\almacen\\almacen.php')
- 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('almacen/almacen', [], true)
- 5 APPPATH\Controllers\AlmacenController.php(20): view('almacen/almacen')
- 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->index()
- 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
- 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:33:02 --> Undefined variable $z
-in APPPATH\Views\almacen\almacen.php on line 40.
- 1 APPPATH\Views\almacen\almacen.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $z', 'APPPATH\\Views\\almacen\\almacen.php', 40)
- 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\almacen\\almacen.php')
- 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('almacen/almacen', [], true)
- 5 APPPATH\Controllers\AlmacenController.php(20): view('almacen/almacen')
- 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->index()
- 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
- 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
-CRITICAL - 2022-11-27 18:33:30 --> Undefined array key "Categoria"
-in APPPATH\Views\almacen\almacen.php on line 47.
- 1 APPPATH\Views\almacen\almacen.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Categoria"', 'APPPATH\\Views\\almacen\\almacen.php', 47)
- 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\almacen\\almacen.php')
- 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('almacen/almacen', [], true)
- 5 APPPATH\Controllers\AlmacenController.php(20): view('almacen/almacen', [...])
- 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->index()
- 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
- 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 14:16:09 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_compra`, CONSTRAINT `tb_compra_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 14:16:09 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_compra`, CONSTRAINT `tb_compra_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 14:16:20 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 14:16:20 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 14:18:43 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 14:18:43 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 14:32:47 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 14:32:47 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 14:34:26 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 14:34:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 14:35:40 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 14:35:40 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 14:46:22 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_compra`, CONSTRAINT `tb_compra_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 14:46:22 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_compra`, CONSTRAINT `tb_compra_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'12\'
+AND `id_cliente` IN (\'12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 15:54:38 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 15:54:38 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_boleta`, CONSTRAINT `tb_boleta_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `tb_cliente` (`id_cliente`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = \'1\'
+AND `id_cliente` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_cliente`
+WHERE `id_cliente` = :id_cliente:
+AND `id_cliente` IN :id_cliente.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ClienteController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ClienteController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 18:35:07 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 18:35:07 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'oficina\', \'artesco\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'oficina\', \'artesco\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'oficina\', \'artesco\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 18:35:27 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 18:35:27 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00010\', NULL, \'oficina\', \'artesco\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00010\', NULL, \'oficina\', \'artesco\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00010\', NULL, \'oficina\', \'artesco\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 18:35:42 --> mysqli_sql_exception: Column 'codigo' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 18:35:42 --> Column 'codigo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 18:36:04 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_almacen`, CONSTRAINT `tb_almacen_ibfk_1` FOREIGN KEY (`id_producto`) REFERENCES `tb_producto` (`id_producto`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(38): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 18:36:04 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_almacen`, CONSTRAINT `tb_almacen_ibfk_1` FOREIGN KEY (`id_producto`) REFERENCES `tb_producto` (`id_producto`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_producto`
+WHERE `id_producto` = \'5\'
+AND `id_producto` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_producto`
+WHERE `id_producto` = \'5\'
+AND `id_producto` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_producto`
+WHERE `id_producto` = \'5\'
+AND `id_producto` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_producto`
+WHERE `id_producto` = :id_producto:
+AND `id_producto` IN :id_producto.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ProductoController.php(38): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 18:36:20 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 18:36:20 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00066\', NULL, \'bb\', \'b\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00066\', NULL, \'bb\', \'b\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00066\', NULL, \'bb\', \'b\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 18:58:02 --> mysqli_sql_exception: Column 'codigo' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 18:58:02 --> Column 'codigo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 18:58:14 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 18:58:14 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:04:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_almacen`, CONSTRAINT `tb_almacen_ibfk_1` FOREIGN KEY (`id_producto`) REFERENCES `tb_producto` (`id_producto`)) in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(38): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->borrar()
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-27 19:04:11 --> Cannot delete or update a parent row: a foreign key constraint fails (`autopartes_calidad`.`tb_almacen`, CONSTRAINT `tb_almacen_ibfk_1` FOREIGN KEY (`id_producto`) REFERENCES `tb_producto` (`id_producto`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb_producto`
+WHERE `id_producto` = \'5\'
+AND `id_producto` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_producto`
+WHERE `id_producto` = \'5\'
+AND `id_producto` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_producto`
+WHERE `id_producto` = \'5\'
+AND `id_producto` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_producto`
+WHERE `id_producto` = :id_producto:
+AND `id_producto` IN :id_producto.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ProductoController.php(38): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->borrar()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:04:49 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:04:49 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'555\', NULL, \'bb\', \'3333\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'555\', NULL, \'bb\', \'3333\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'555\', NULL, \'bb\', \'3333\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:05:06 --> mysqli_sql_exception: Column 'codigo' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:05:06 --> Column 'codigo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:05:18 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:05:18 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:05:40 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:05:40 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'bb\', \'3333\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:08:13 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:08:13 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00016\', NULL, \'bb\', \'3333\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00016\', NULL, \'bb\', \'3333\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'00016\', NULL, \'bb\', \'3333\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:10:44 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:10:44 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'jhjk\', \'jkhkj\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'jhjk\', \'jkhkj\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'jhjk\', \'jkhkj\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:11:08 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:11:08 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'jhjk\', \'jkhkj\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'jhjk\', \'jkhkj\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'\', NULL, \'jhjk\', \'jkhkj\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:13:00 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:13:00 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'7575\', NULL, \'ghgj\', \'jhkhkjh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'7575\', NULL, \'ghgj\', \'jhkhkjh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (\'7575\', NULL, \'ghgj\', \'jhkhkjh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`codigo`, `producto`, `categoria`, `marca`) VALUES (:codigo:, :producto:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:15:14 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:15:14 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'7575\', \'ghgj\', \'jhkhkjh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'7575\', \'ghgj\', \'jhkhkjh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'7575\', \'ghgj\', \'jhkhkjh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (:producto:, :codigo:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:15:33 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:15:33 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'45hh\', \'jjkh\', \'gjh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'45hh\', \'jjkh\', \'gjh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'45hh\', \'jjkh\', \'gjh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (:producto:, :codigo:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-27 19:18:45 --> mysqli_sql_exception: Column 'producto' cannot be null in C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TramucaCode\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\TramucaCode\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\TramucaCode\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\TramucaCode\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TramucaCode\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TramucaCode\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TramucaCode\app\Controllers\ProductoController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+#9 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#10 C:\xampp\htdocs\TramucaCode\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TramucaCode\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TramucaCode\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-27 19:18:45 --> Column 'producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'45hh\', \'jjkh\', \'gjh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'45hh\', \'jjkh\', \'gjh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (NULL, \'45hh\', \'jjkh\', \'gjh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_producto` (`producto`, `codigo`, `categoria`, `marca`) VALUES (:producto:, :codigo:, :categoria:, :marca:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\ProductoController->guardar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+>>>>>>> a62120b48a644b9134c85f1ab941b45e1b915116

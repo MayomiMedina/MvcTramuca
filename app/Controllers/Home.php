@@ -39,6 +39,16 @@ class Home extends BaseController
     }
     public function login2(){
         $pro=new UsersModel();
-        
+        $usu=$this->request->getVar('usuario');
+        $con=$this->request->getVar('contrase');
+
+        $vari=$pro->where('usuario',$usu)
+                    ->where('contra',$con)
+                    ->first();
+        if($usu==$vari['usuario']){
+            echo 'gg';
+        }else{
+            echo'ss';
+        }
     }
 }

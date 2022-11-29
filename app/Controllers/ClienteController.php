@@ -21,7 +21,7 @@ class ClienteController extends BaseController
         'apellido'=>$this->request->getVar('ape'),
         'celular'=>$this->request->getVar('cel'),
         'DNI'=>$this->request->getVar('DNI'),
-        'direccion'=>$this->request->getVar('dir'),
+        'direccion'=>$this->request->getVar('dir')
         ];
         $pro->insert($datos);
 //AHORA TE GUARDA Y TE LISTAAAA IZIIII
@@ -51,7 +51,7 @@ class ClienteController extends BaseController
             'apellido'=>$this->request->getVar('ape'),
             'celular'=>$this->request->getVar('cel'),
             'DNI'=>$this->request->getVar('DNI'),
-            'direccion'=>$this->request->getVar('dir'),
+            'direccion'=>$this->request->getVar('dir')
         ];
 
         $pro->update($id,$datos);

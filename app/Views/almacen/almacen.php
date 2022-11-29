@@ -2,6 +2,19 @@
 
 <?php $this->section('css'); ?>
 <?php $this->endSection(); ?>
+<?php
+$servidor="localhost";
+$user="root";
+$pass="";
+$bd="autopartes_calidad";
+
+$conexion= new mysqli($servidor,$user,$pass,$bd);
+
+if($conexion->connect_errno){
+    die("error al conectar".$conexion->connect_errno);
+}
+
+?>
 
 <?php $this->section('contenido'); ?>
 <div class="container-md-6 mx-3 bg-white shadow border">
@@ -24,7 +37,7 @@
                     <a  class="btn btn-info" href="../pdf/almacen.php"> Imprimir </a>
                     </div>
                     <p></p>                  
-                    <table class="table table-striped table-bordered">
+                    <table class="table table-striped table-bordered" id="tablapro">
                       <thead class="thead-dark">
                       <tr class="table-bordered">                        
                         <th>Fecha</th>
@@ -37,45 +50,37 @@
                       </tr>                      
                       </thead>
                       <tbody>
-                     <!--  <?php 
-                      //  $consul="SELECT tb_almacen.id_almacen,
-                      //  tb_almacen.id_producto,tb_almacen.fecha,tb_almacen.seccion,
-                     //   tb_producto.producto,
-                     //   tb_producto.stock,
-                      //  tb_producto.categoria,tb_producto.marca,tb_producto.codigo
-                      //  from tb_almacen
-                     ////   inner join tb_producto on tb_almacen.id_producto=tb_producto.id_producto";
-                     //   $resul=mysqli_query($conexion,$consul);
-                     //   while($row=mysqli_fetch_assoc($resul)){
-                        ?>
-                        <tr>                            
-                            <td><?php //echo $row['fecha'];?></td>
-                            <td><?php //echo $row['seccion'];?></td>
-                            <td><?php //echo $row['producto'];?></td>  
-                            <td><?php //echo $row['codigo'];?></td>
-                            <td><?php // echo $row['stock'];?></td>
-                            <td><?php //echo $row['categoria'];?></td>
-                            <td><?php //echo $row['marca'];?></td>
-                            <td><button type="button" class="btn" data-bs-toggle="modal" 
+                        
+                      <?php foreach($z as $pro):?>
+                        <tr>
+                            <td><?=$pro['fecha'];?></td>
+                            <td><?=$pro['seccion'];?></td>
+                            <td><?=$pro['producto'];?></td>                   
+                            <td><?=$pro['codigo'];?></td> 
+                            <td><?=$pro['stock'];?></td> 
+                            <td><?=$pro['categoria'];?></td> 
+                            <td><?=$pro['marca'];?></td> 
+                            <td>
+                            <button type="button" class="btn" data-bs-toggle="modal" 
                             data-bs-target="#modalalmacensupdate"
-                                 data-bs-id="<?php //echo $row['id_almacen'];?>"
-                                 data-bs-pro="<?php //echo $row['fecha'];?>"
-                                 data-bs-sec="<?php // echo $row['seccion'];?>"
+                                 data-bs-id="<?=$pro['id_almacen'];?>"
+                                 data-bs-pro="<?=$pro['fecha'];?>"
+                                 data-bs-sec="<?=$pro['seccion'];?>"
                                  >
                                  <i class="fas fa-edit fa-2x" style="color:tomato"></i>
 
                               </button>
                             <button type="button" class="btn" data-bs-toggle="modal" 
                               data-bs-target="#eliminaralmacen"
-                              data-bs-id="<?php //echo $row['id_almacen'];?>"
-                              data-bs-cod="<?php //echo $row['producto'];?>">
+                              data-bs-id="<?=$pro['id_almacen'];?>"
+                              data-bs-cod="<?=$pro['producto'];?>">
                               <i class="fa-solid fa-trash fa-2x"></i>                            
-                              </button>
+                              </button>                            
+                          
                             </td>
                         </tr>
-                    <?php
-                    //}
-                    ?> -->
+                        <?php endforeach; ?>
+                        
                       </tbody>
                     </table>
               
@@ -88,6 +93,11 @@
     </div>    
 </div>
 
+<script>
+var tabla=document.querySelector("#tablapro");
+var datatable=new DataTable(tabla);
+</script> 
+
 <div class="modal fade" id="eliminaralmacen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -96,7 +106,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/almacenelimi.php">
+        <form method="POST" action="<?=base_url();?>/AlmacenController/borrar"?>
 
         <input type="hidden" class="form-control" id="id" name="id">
 
@@ -121,13 +131,13 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">REGISTRAR</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Actualizar</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/almacenupdate.php">
+        <form method="POST" action="<?=base_url();?>/AlmacenController/editar"?>
 
-        <input type="hidden" class="form-control" id="id" name="id">
+        <input type="text" class="form-control" id="id" name="id">
 
 
         <div class="col-xs-6 col-sm-3 col-md-6 form-group">
@@ -147,15 +157,16 @@
           <div class="mb-3">
           <label for="recipient-name" class="col-form-label">Producto</label>
             <select class="form-select" id="pro" name="pro" require >
-           <!--  <?php 
-            //  $consul="SELECT tb_compra.id_producto,tb_producto.producto 
-           //   from tb_compra
-           //   inner join tb_producto on tb_compra.id_producto=tb_producto.id_producto";
-           //   $resul=mysqli_query($conexion,$consul);
-          //    while($row=mysqli_fetch_assoc($resul)){
-           //     echo '<option value="'.$row['id_producto'].'">' .$row['producto']. '</option>';
-            //  }
-            ?> -->            
+            <?php 
+              $consul="SELECT tb_compra.id_producto,tb_producto.producto 
+              from tb_compra
+              inner join tb_producto on tb_compra.id_producto=tb_producto.id_producto
+              group by tb_producto.producto";
+              $resul=mysqli_query($conexion,$consul);
+              while($row=mysqli_fetch_assoc($resul)){
+                echo '<option value="'.$row['id_producto'].'">' .$row['producto']. '</option>';
+              }
+            ?>                
             </select>
           </div>
 
@@ -192,8 +203,8 @@
 
 
       modalBodyInput.value = recipient;
-      nombre.value=pro;
       secc.value=sec;
+      nombre.value=pro;      
 
     })
 
@@ -215,6 +226,7 @@
     })
   </script>
 
+
 <div class="modal fade" id="modalalmacen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -223,7 +235,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/almacenreg.php">
+        <form method="POST" action="<?=base_url();?>/AlmacenController/guardar"?>
 
         <div class="col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Fecha:</label>
@@ -238,17 +250,17 @@
 
           <div class="mb-3">
           <label for="recipient-name" class="col-form-label">Producto</label>
-            <select class="form-select" id="pro" name="pro" require>
-       <!--      <?php 
-           //   $consul="SELECT tb_compra.id_producto,tb_producto.producto 
-           //   from tb_compra
-            //  inner join tb_producto on tb_compra.id_producto=tb_producto.id_producto
-            //  group by tb_producto.producto";
-            //  $resul=mysqli_query($conexion,$consul);
-            //  while($row=mysqli_fetch_assoc($resul)){
-            //    echo '<option value="'.$row['id_producto'].'">' .$row['producto']. '</option>';
-            //  }
-            ?>  -->           
+            <select class="form-select" id="pro" name="pro" require>   
+            <?php 
+              $consul="SELECT tb_compra.id_producto,tb_producto.producto 
+              from tb_compra
+              inner join tb_producto on tb_compra.id_producto=tb_producto.id_producto
+              group by tb_producto.producto";
+              $resul=mysqli_query($conexion,$consul);
+              while($row=mysqli_fetch_assoc($resul)){
+                echo '<option value="'.$row['id_producto'].'">' .$row['producto']. '</option>';
+              }
+            ?>              
             </select>
           </div>
           <div class="mb-3">

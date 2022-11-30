@@ -2,6 +2,19 @@
 
 <?php $this->section('css'); ?>
 <?php $this->endSection(); ?>
+<?php
+$servidor="localhost";
+$user="root";
+$pass="";
+$bd="autopartes_calidad";
+
+$conexion= new mysqli($servidor,$user,$pass,$bd);
+
+if($conexion->connect_errno){
+    die("error al conectar".$conexion->connect_errno);
+}
+
+?>
 
 <?php $this->section('contenido'); ?>
 <div class="container-md-6 mx-3 bg-white shadow border">
@@ -39,56 +52,43 @@
                 <th>Total</th>
               </tr>
             </thead>
-            <!-- <tbody>
-              <?php
-             // $consul = "SELECT tb_boleta.id_boleta,tb_boleta.id_cliente,tb_boleta.id_producto,tb_boleta.fecha,
-              //          tb_boleta.RUC,tb_boleta.descripcion,tb_boleta.comprobante,tb_boleta.cantidad,tb_boleta.precio,
-              //          tb_boleta.total,tb_producto.producto,tb_cliente.nombre
-               //         from ((tb_boleta
-               //         inner join tb_producto on tb_boleta.id_producto=tb_producto.id_producto)
-              //          inner join tb_cliente on tb_boleta.id_cliente=tb_cliente.id_cliente)";
-
-             // $resul = mysqli_query($conexion, $consul);
-             // while ($row = mysqli_fetch_assoc($resul)) {
-              ?>
+            <?php foreach($s as $pro):?>
                 <tr>
-                  <td><?php //echo $row['comprobante']; ?></td>
-                  <td><?php //echo $row['producto']; ?></td>
-                  <td><?php //echo $row['nombre']; ?></td>
-                  <td><?php //echo $row['fecha']; ?></td>
-                  <td><?php //echo $row['RUC']; ?></td>
-                  <td><?php //echo $row['descripcion']; ?></td>
-                  <td><?php //echo $row['cantidad']; ?></td>
-                  <td><?php //echo $row['precio']; ?></td>
-                  <td><?php //echo $row['total']; ?></td>
+                  <td><?=$pro['comprobante']; ?></td>
+                  <td><?=$pro['producto']; ?></td>
+                  <td><?=$pro['nombre']; ?></td>
+                  <td><?=$pro['fecha']; ?></td>
+                  <td><?=$pro['RUC']; ?></td>
+                  <td><?=$pro['descripcion']; ?></td>
+                  <td><?=$pro['cantidad']; ?></td>
+                  <td><?=$pro['precio']; ?></td>
+                  <td><?=$pro['total']; ?></td>
                   <td><button type="button" title="editar" class="btn" data-bs-toggle="modal" 
                   data-bs-target="#updateventas"
-                    data-bs-id="<?php //echo $row['id_boleta']; ?>"
-                    data-bs-com="<?php //echo $row['comprobante']; ?>"
-                    data-bs-pro="<?php //echo $row['producto']; ?>"
-                    data-bs-nom="<?php //echo $row['nombre']; ?>"
-                    data-bs-fec="<?php //echo $row['fecha']; ?>"
-                    data-bs-ruc="<?php //echo $row['RUC']; ?>"
-                    data-bs-desc="<?php //echo $row['descripcion']; ?>"
-                    data-bs-can="<?php //echo $row['cantidad']; ?>"
-                    data-bs-pre="<?php //echo $row['precio']; ?>"
-                    data-bs-tot="<?php //echo $row['total']; ?>"
+                    data-bs-id="<?=$pro['id_boleta']; ?>"
+                    data-bs-com="<?=$pro['comprobante']; ?>"
+                    data-bs-pro="<?=$pro['producto']; ?>"
+                    data-bs-nom="<?=$pro['nombre']; ?>"
+                    data-bs-fec="<?=$pro['fecha']; ?>"
+                    data-bs-ruc="<?=$pro['RUC']; ?>"
+                    data-bs-desc="<?=$pro['descripcion']; ?>"
+                    data-bs-can="<?=$pro['cantidad']; ?>"
+                    data-bs-pre="<?=$pro['precio']; ?>"
+                    data-bs-tot="<?=$pro['total']; ?>"
                     >
                       <i class="fas fa-edit fa-2x" style="color:tomato"></i>
 
                     </button>
                     <button type="button" title="eliminar" class="btn" data-bs-toggle="modal" 
                     data-bs-target="#eliminaralmacen"
-                     data-bs-id="<?php //echo $row['id_boleta']; ?>" 
-                     data-bs-cod="<?php //echo $row['producto']; ?>"
+                     data-bs-id="<?=$pro['id_boleta']; ?>" 
+                     data-bs-cod="<?=$pro['producto']; ?>"
                      >
                       <i class="fa-solid fa-trash fa-2x"></i>
                     </button>
                   </td>
                 </tr>
-              <?php
-             // }
-              ?> -->
+                <?php endforeach; ?>
             </tbody>
           </table>
 
@@ -109,7 +109,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/ventaelimi.php">
+        <form method="POST" action="<?=base_url();?>/VentasController/borrar"?>
 
           <input type="hidden" class="form-control" id="id" name="id">
 
@@ -138,7 +138,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/ventaupdate.php">
+        <form method="POST" action="<?=base_url();?>/VentasController/editar"?>
 
         <input type="hidden" class="form-control" id="idcompra" name="idcompra">
 
@@ -166,27 +166,27 @@
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Clientess</label>
             <select class="form-select" id="cli" name="cli" required>
-          <!--     <?php
-         //     $consul = "SELECT * from tb_cliente";
-         //     $resul = mysqli_query($conexion, $consul);
-          //    while ($row = mysqli_fetch_assoc($resul)) {
-          //      echo '<option value="' . $row['id_cliente'] . '">' . $row['nombre'] . '</option>';
-          //    }
-              ?> -->
+               <?php
+             $consul = "SELECT * from tb_cliente";
+              $resul = mysqli_query($conexion, $consul);
+              while ($row = mysqli_fetch_assoc($resul)) {
+                echo '<option value="' . $row['id_cliente'] . '">' . $row['nombre'] . '</option>';
+              }
+              ?> 
             </select>
           </div>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Producto</label>
             <select class="form-select" id="pro" name="pro" require>
-           <!--    <?php
-          //    $consul = "SELECT tb_almacen.id_producto,tb_producto.producto 
-          //       from tb_almacen
-          //       inner join tb_producto on tb_almacen.id_producto=tb_producto.id_producto";
-          //   $resul = mysqli_query($conexion, $consul);
-          //    while ($row = mysqli_fetch_assoc($resul)) {
-           //     echo '<option value="' . $row['id_producto'] . '">' . $row['producto'] . '</option>';
-          //    }
-              ?> -->
+               <?php
+              $consul = "SELECT tb_almacen.id_producto,tb_producto.producto 
+                from tb_almacen
+                 inner join tb_producto on tb_almacen.id_producto=tb_producto.id_producto";
+            $resul = mysqli_query($conexion, $consul);
+             while ($row = mysqli_fetch_assoc($resul)) {
+               echo '<option value="' . $row['id_producto'] . '">' . $row['producto'] . '</option>';
+              }
+              ?> 
             </select>
           </div>
           <div class="mb-3">
@@ -285,7 +285,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/ventareg.php">
+        <form method="POST" action="<?=base_url();?>/VentasController/guardar"?>
 
           <div class="col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Fecha:</label>
@@ -311,27 +311,27 @@
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Cliente</label>
             <select class="form-select" id="cli" name="cli" require>
-          <!--     <?php
-          //    $consul = "SELECT * from tb_cliente";
-           //   $resul = mysqli_query($conexion, $consul);
-          //    while ($row = mysqli_fetch_assoc($resul)) {
-           //     echo '<option value="' . $row['id_cliente'] . '">' . $row['nombre'] . '</option>';
-           //   }
-              ?> -->
+               <?php
+             $consul = "SELECT * from tb_cliente";
+             $resul = mysqli_query($conexion, $consul);
+              while ($row = mysqli_fetch_assoc($resul)) {
+                echo '<option value="' . $row['id_cliente'] . '">' . $row['nombre'] . '</option>';
+              }
+              ?> 
             </select>
           </div>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Producto</label>
             <select class="form-select" id="pro" name="pro" require>
-            <!--   <?php
-             // $consul = "SELECT tb_almacen.id_producto,tb_producto.producto 
-             // from tb_almacen
-            //  inner join tb_producto on tb_almacen.id_producto=tb_producto.id_producto";
-            //  $resul = mysqli_query($conexion, $consul);
-           //   while ($row = mysqli_fetch_assoc($resul)) {
-           //     echo '<option value="' . $row['id_producto'] . '">' . $row['producto'] . '</option>';
-           //   }
-              ?> -->
+               <?php
+              $consul = "SELECT tb_almacen.id_producto,tb_producto.producto 
+              from tb_almacen
+             inner join tb_producto on tb_almacen.id_producto=tb_producto.id_producto";
+              $resul = mysqli_query($conexion, $consul);
+              while ($row = mysqli_fetch_assoc($resul)) {
+                echo '<option value="' . $row['id_producto'] . '">' . $row['producto'] . '</option>';
+              }
+              ?> 
             </select>
           </div>
           <div class="mb-3">

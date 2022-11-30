@@ -2,6 +2,19 @@
 
 <?php $this->section('css'); ?>
 <?php $this->endSection(); ?>
+<?php
+$servidor="localhost";
+$user="root";
+$pass="";
+$bd="autopartes_calidad";
+
+$conexion= new mysqli($servidor,$user,$pass,$bd);
+
+if($conexion->connect_errno){
+    die("error al conectar".$conexion->connect_errno);
+}
+
+?>
 
 <?php $this->section('contenido'); ?>
 <div class="container-md-6 mx-3 bg-white shadow border">
@@ -18,17 +31,14 @@
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalcompras"> Registrar Compra</button>
 
                     </div>
-
-             
-
+          
                     <div class="col-md-4 d-grid gap-1 pt-1">
                         <a  class="btn btn-info" href="../pdf/compraspdf.php"> Imprimir </a>
                     </div>
                     <p></p>
-                    <table  class="table table-striped" >
+                    <table  class="table table-striped" id="tablapro" >
                       <thead class="thead-dark">
-                      <tr class="table-bordered">                        
-                        <th>Código</th>
+                      <tr class="table-bordered">                         
                         <th>Nombre del producto</th>
                         <th>Num_comprobante</th>
                         <th>Cliente </th>
@@ -39,51 +49,41 @@
                       </tr>
                       </thead>
                       <tbody>
-                  <!--     <?php 
-                      //  $consul="SELECT tb_compra.idcompra,tb_producto.producto,tb_producto.codigo,
-                      //  tb_compra.numcomproban,tb_compra.fecha,tb_compra.cantidad,tb_compra.precio,tb_compra.total,
-                      //  tb_cliente.nombre
-                       // from ((tb_compra
-                       // inner join tb_producto on tb_compra.id_producto=tb_producto.id_producto)
-                       // inner join tb_cliente on tb_compra.id_cliente=tb_cliente.id_cliente)";
-                       // $resul=mysqli_query($conexion,$consul);
-                       // while($row=mysqli_fetch_assoc($resul)){
-                        ?>
+                      <?php foreach($s as $pro):?>
                         <tr>
-                            <td><?php //echo $row['codigo'];?></td>
-                            <td><?php //echo $row['producto'];?></td>
-                            <td><?php //echo $row['numcomproban'];?></td> 
-                            <td><?php //echo $row['nombre'];?></td>
-                            <td><?php //echo $row['fecha'];?></td>
-                            <td><?php //echo $row['cantidad'];?></td>
-                            <td><?php //echo $row['precio'];?></td>
-                            <td><?php // echo ($row['precio']*$row['cantidad']);?></td>                                                    
-                            <td><button type="button" title="Editar" class="btn" data-bs-toggle="modal" 
+                            <td><?=$pro['producto'];?></td>
+                            <td><?=$pro['numcomproban'];?></td>
+                            <td><?=$pro['nombre'];?></td>                   
+                            <td><?=$pro['fecha'];?></td> 
+                            <td><?=$pro['cantidad'];?></td> 
+                            <td><?=$pro['precio'];?></td> 
+                            <td><?=$pro['precio']*$pro['cantidad'];?></td> 
+                            <td>
+                            <button type="button" class="btn" data-bs-toggle="modal" 
                             data-bs-target="#modalcomprasupdate"
-                                 data-bs-id="<?php //echo $row['idcompra'];?>"
-                                 data-bs-cod="<?php //echo $row['codigo'];?>"
-                                 data-bs-pro="<?php //echo $row['producto'];?>"
-                                 data-bs-num="<?php //echo $row['numcomproban'];?>"
-                                 data-bs-fec="<?php //echo $row['fecha'];?>"
-                                 data-bs-can="<?php //echo $row['cantidad'];?>"
-                                 data-bs-cli="<?php //echo $row['nombre'];?>"
-                                 data-bs-pre="<?php //echo $row['precio'];?>"
-                                 data-bs-tot="<?php //echo ($row['precio']*$row['cantidad']);?>"
+                                 data-bs-id="<?=$pro['idcompra'];?>"
+                                 data-bs-cod="<?=$pro['codigo'];?>"
+                                 data-bs-pro="<?=$pro['producto'];?>"
+                                 data-bs-num="<?=$pro['numcomproban'];?>"
+                                 data-bs-nom="<?=$pro['nombre'];?>"
+                                 data-bs-fec="<?=$pro['fecha'];?>"
+                                 data-bs-can="<?=$pro['cantidad'];?>"
+                                 data-bs-pre="<?=$pro['precio'];?>"
+                                 data-bs-tot="<?=$pro['precio']*$pro['cantidad'];?>"
                                  >
                                  <i class="fas fa-edit fa-2x" style="color:tomato"></i>
-                                 
+
                               </button>
-                            <button type="button" title="Eliminar" class="btn" data-bs-toggle="modal" 
+                            <button type="button" class="btn" data-bs-toggle="modal" 
                               data-bs-target="#eliminar"
-                              data-bs-id="<?php //echo $row['idcompra'];?>"
-                              data-bs-cod="<?php //echo $row['codigo'];?>">
+                                 data-bs-id="<?=$pro['idcompra'];?>"
+                                 data-bs-cod="<?=$pro['producto'];?>">
                               <i class="fa-solid fa-trash fa-2x"></i>                            
-                              </button>
+                              </button>                            
+                          
                             </td>
                         </tr>
-                    <?php
-                  //  }
-                    ?> -->
+                        <?php endforeach; ?>
                       </tbody>
                     </table>
               
@@ -95,7 +95,10 @@
 
     </div>    
 </div>
-
+<script>
+var tabla=document.querySelector("#tablapro");
+var datatable=new DataTable(tabla);
+</script> 
 
 <div class="modal fade" id="eliminar" tabindex="-1" aria-labelledby="exampleModalLabelUp" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -105,8 +108,8 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/compraelimi.php">          
-              <input type="hidden" class="form-control" id="idcompra" name="idcompra">
+        <form method="POST" action="<?=base_url();?>/ComprasController/borrar"?>          
+              <input type="text" class="form-control" id="idcompra" name="idcompra">
               
             <div class="modal-footer">
                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -127,9 +130,9 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/compraupdate.php">
+        <form method="POST" action="<?=base_url();?>/ComprasController/editar"?>
           
-            <input type="hidden" class="form-control" id="idcompra" name="idcompra">
+            <input type="text" class="form-control" id="idcompra" name="idcompra">
         <div class="row">            
           <div class="col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Codigo:</label>
@@ -137,14 +140,14 @@
           </div>
           <div class="col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Nombre del producto:</label>
-            <select class="form-select" id="Nom" name="Nom" required="" autocomplete="off">
-          <!--   <?php 
-             // $consul="SELECT * from tb_producto";
-             // $resul=mysqli_query($conexion,$consul);
-             // while($row=mysqli_fetch_assoc($resul)){
-             //   echo '<option value="'.$row['id_producto'].'">' .$row['producto']. '</option>';
-             // }
-            ?> -->
+            <select class="form-select" id="pro" name="pro" required="" autocomplete="off">
+             <?php 
+              $consul="SELECT * from tb_producto";
+             $resul=mysqli_query($conexion,$consul);
+              while($row=mysqli_fetch_assoc($resul)){
+                echo '<option value="'.$row['id_producto'].'">' .$row['producto']. '</option>';
+              }
+            ?> 
             </select>
            </div>
         </div>
@@ -152,13 +155,13 @@
           <div class="mb-3">
           <label for="recipient-name" class="col-form-label">Cliente</label>
             <select class="form-select" id="cli" name="cli" required="">
-          <!--   <?php 
-             // $consul="SELECT * from tb_cliente";
-             // $resul=mysqli_query($conexion,$consul);
-             // while($row=mysqli_fetch_assoc($resul)){
-             //   echo '<option value="'.$row['id_cliente'].'">' .$row['nombre']. '</option>';
-            //  }
-            ?>  -->           
+             <?php 
+              $consul="SELECT * from tb_cliente";
+              $resul=mysqli_query($conexion,$consul);
+              while($row=mysqli_fetch_assoc($resul)){
+                echo '<option value="'.$row['id_cliente'].'">' .$row['nombre']. '</option>';
+              }
+            ?>            
             </select>
           </div>
         <div class="row">
@@ -263,7 +266,7 @@
            var codigo = elimi.querySelector('#cod')
            var tituli =elimi.querySelector('.modal-title')
 
-           tituli.textContent='¿Seguro de eliminar el codigo: '+ cod+'?'
+           tituli.textContent='¿Seguro de eliminar el producto: '+ cod+'?'
            modalBodyInput.value = recipient
 
     })
@@ -278,22 +281,18 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/comprareg.php">
-        <div class="row">
-          <div class="col-xs-6 col-sm-3 col-md-6 form-group">
-            <label for="recipient-name" class="col-form-label">Código:</label>
-            <input type="text" class="form-control" id="cod" name="cod" required autocomplete="off">
-          </div>
+        <form method="POST" action="<?=base_url();?>/ComprasController/guardar"?>
+        <div class="row">          
           <div class="col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Nombre del producto:</label>
-            <select class="form-select" id="Nom" name="Nom" require>
-          <!--   <?php 
-             // $consul="SELECT * from tb_producto";
-              //$resul=mysqli_query($conexion,$consul);
-              //while($row=mysqli_fetch_assoc($resul)){
-                //echo '<option value="'.$row['id_producto'].'">' .$row['producto']. '</option>';
-             // }
-            ?> -->
+            <select class="form-select" id="pro" name="pro" require>
+             <?php 
+              $consul="SELECT * from tb_producto";
+              $resul=mysqli_query($conexion,$consul);
+              while($row=mysqli_fetch_assoc($resul)){
+              echo '<option value="'.$row['id_producto'].'">' .$row['producto']. '</option>';
+              }
+            ?> 
             </select>
           </div>
         </div>
@@ -302,13 +301,13 @@
           <div class="col-xs-6 col-sm-3 col-md-6 form-group">
           <label for="recipient-name" class="col-form-label">Cliente</label>
             <select class="form-select" id="cli" name="cli" require>
-           <!--  <?php 
-             // $consul="SELECT * from tb_cliente";
-             // $resul=mysqli_query($conexion,$consul);
-             // while($row=mysqli_fetch_assoc($resul)){
-             //   echo '<option value="'.$row['id_cliente'].'">' .$row['nombre']. '</option>';
-            //  }
-            ?> -->            
+             <?php 
+              $consul="SELECT * from tb_cliente";
+              $resul=mysqli_query($conexion,$consul);
+              while($row=mysqli_fetch_assoc($resul)){
+                echo '<option value="'.$row['id_cliente'].'">' .$row['nombre']. '</option>';
+              }
+            ?>            
             </select>
           </div>
          

@@ -2,16 +2,27 @@
 
 <link href="<?= base_url(); ?>/css/estiloUsu.css" rel="stylesheet" type="text/css">
 <link href="<?= base_url(); ?>/build/bootstrap5/css/bootstrap.min.css" rel="stylesheet" />
+<?php
+$servidor="localhost";
+$user="root";
+$pass="";
+$bd="autopartes_calidad";
 
+$conexion= new mysqli($servidor,$user,$pass,$bd);
+
+if($conexion->connect_errno){
+    die("error al conectar".$conexion->connect_errno);
+}
+
+?>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <div class="container" >
     <div class="center-block mb-5">           
             <h2 class="text-center pt-2"><p style="color: white">Usuarios</p></h2>
                     <div class="col-md-4   " >
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalusuar"><b> Registrar Usuario</b></button>
-                    
-                  
-                        <a class="btn btn-success" href="../index.html" ><b>Regresar</b></a> 
+
+                        <a class="btn btn-success" href="<?= base_url(); ?>/Home" ><b>Regresar</b></a> 
                     </div>
             <p></p>
             <table class="table table-striped table-bordered">
@@ -28,48 +39,42 @@
                     </tr>
                 </thead>
                 <tbody>
-              <!--   <?php 
-              //  $consul="SELECT usuario.idusu,usuario.nombre,usuario.apellidos,usuario.usuario,
-              //  usuario.contra,usuario.area,usuario.estado,cargo.cargo 
-             //   from usuario
-             //   inner join cargo on usuario.idcargo=cargo.idcago";
-             //   $resul=mysqli_query($conexion,$consul);
-             //   while($row=mysqli_fetch_assoc($resul)){
-                    ?>
+                <?php foreach($s as $usu):?>
                         <tr>
-                            <td><?php //echo $row['idusu'];?></td>
-                            <td><?php //echo $row['nombre'];?></td>
-                            <td><?php //echo $row['apellidos'];?></td>
-                            <td><?php //echo $row['usuario'];?></td>
-                            <td><?php //echo $row['area'];?></td>
-                            <td><?php //echo $row['estado'];?></td>
-                            <td><?php //echo $row['cargo'];?></td>
+                            <td><?=$usu['idusu'];?></td>
+                            <td><?=$usu['nombre'];?></td>
+                            <td><?=$usu['apellidos'];?></td>
+                            <td><?=$usu['usuario'];?></td>
+                            <td><?=$usu['area'];?></td>
+                            <td><?=$usu['estado'];?></td>
+                            <td><?=$usu['idcargo'];?></td>
+                            
                             <td><button type="button" class="btn" title="Editar" data-bs-toggle="modal" 
                             data-bs-target="#usuupdate"
-                                 data-bs-id="<?php //echo $row['idusu'];?>"
-                                 data-bs-nom="<?php //echo $row['nombre'];?>"
-                                 data-bs-ape="<?php //echo $row['apellidos'];?>"
-                                 data-bs-usu="<?php //echo $row['usuario'];?>"
-                                 data-bs-are="<?php //echo $row['area'];?>"
-                                 data-bs-est="<?php //echo $row['estado'];?>"
-                                 data-bs-car="<?php //echo $row['cargo'];?>"
+                                 data-bs-id="<?=$usu['idusu'];?>"
+                                 data-bs-nom="<?=$usu['nombre'];?>"
+                                 data-bs-ape="<?=$usu['apellidos'];?>"
+                                 data-bs-usu="<?=$usu['usuario'];?>"
+                                 data-bs-are="<?=$usu['area'];?>"
+                                 data-bs-est="<?=$usu['estado'];?>"
+                                 data-bs-car="<?=$usu['idcargo'];?>"
                                  >
                                  <i class="fas fa-edit fa-2x" style="color:tomato"></i>
                                  
                               </button>
                             <button type="button" class="btn" title="Eliminar" data-bs-toggle="modal" 
                               data-bs-target="#eliminar"
-                              data-bs-id="<?php //echo $row['idusu'];?>"
-                              data-bs-nom="<?php //echo $row['nombre'];?>">
+                              data-bs-id="<?=$usu['idusu'];?>"
+                              data-bs-nom="<?=$usu['nombre'];?>">
                               <i class="fa-solid fa-trash fa-2x"></i>                            
                               </button>
                             </td>
                         </tr>                    
-                    <?php
-              //  }
-                ?> -->
+                        </tr>
+                        <?php endforeach; ?>
                 </tbody>
             </table>
+
     </div>
 </div>
 
@@ -81,7 +86,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/usuelimi.php">
+        <form method="POST" action="<?= base_url();?>/AdminUsuController/borrar"?">
 
         <input type="hidden" class="form-control" id="idusu" name="idusu">
 
@@ -110,7 +115,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/usuupdate.php">
+        <form method="POST" action="<?= base_url();?>/AdminUsuController/editar"?">
         <input type="hidden" class="form-control" id="idusu" name="idusu">
         
         <div class="row">
@@ -148,13 +153,13 @@
             <label for="recipient-name" class="col-form-label">Cargo:</label>
             <select class="form-select" id="car" name="car" required="">
               
-          <!--  <?php 
-             // $consul="SELECT * from cargo";
-             // $resul=mysqli_query($conexion,$consul);
-            //  while($row=mysqli_fetch_assoc($resul)){
-            //    echo '<option value="'.$row['idcago'].'">' .$row['cargo']. '</option>';
-           //   }
-            ?> -->
+           <?php 
+              $consul="SELECT * from cargo";
+             $resul=mysqli_query($conexion,$consul);
+            while($row=mysqli_fetch_assoc($resul)){
+               echo '<option value="'.$row['idcago'].'">' .$row['cargo']. '</option>';
+              }
+            ?> 
             </select>
           </div>
           <div class="modal-footer">
@@ -232,7 +237,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="POST" action="../codigos/usureg.php">
+        <form method="POST" action="<?= base_url();?>/AdminUsuController/guardar"?">
         <div class="row">
         <div class="row">
           <div class="col-xs-6 col-sm-3 col-md-6 form-group">
@@ -271,13 +276,13 @@
           <div class="mb-3 col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Cargo:</label>
             <select class="form-select" id="car" name="car" required="">
-           <!--  <?php 
-           //   $consul="SELECT * from cargo";
-           //   $resul=mysqli_query($conexion,$consul);
-           //   while($row=mysqli_fetch_assoc($resul)){
-           //     echo '<option value="'.$row['idcago'].'">' .$row['cargo']. '</option>';
-            //  }
-            ?> -->
+          <?php 
+              $consul="SELECT * from cargo";
+              $resul=mysqli_query($conexion,$consul);
+              while($row=mysqli_fetch_assoc($resul)){
+                echo '<option value="'.$row['idcago'].'">' .$row['cargo']. '</option>';
+              }
+            ?> 
             </select>
           </div>
         </div>  

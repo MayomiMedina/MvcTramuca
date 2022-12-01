@@ -1,0 +1,24 @@
+CRITICAL - 2022-11-30 14:38:54 --> Undefined array key "cargo"
+in APPPATH\Views\crudUsuarios\crudUsuarios.php on line 42.
+ 1 APPPATH\Views\crudUsuarios\crudUsuarios.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cargo"', 'APPPATH\\Views\\crudUsuarios\\crudUsuarios.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crudUsuarios\\crudUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('crudUsuarios/crudUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminUsuController.php(13): view('crudUsuarios/crudUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AdminUsuController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUsuController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 14:48:30 --> Undefined array key "cargo"
+in APPPATH\Views\crudUsuarios\crudUsuarios.php on line 38.
+ 1 APPPATH\Views\crudUsuarios\crudUsuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cargo"', 'APPPATH\\Views\\crudUsuarios\\crudUsuarios.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crudUsuarios\\crudUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('crudUsuarios/crudUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminUsuController.php(13): view('crudUsuarios/crudUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AdminUsuController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUsuController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

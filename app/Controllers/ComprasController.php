@@ -35,7 +35,8 @@ class ComprasController extends BaseController
         $tota=$produ['stock']+$uno;
 
         $datos=[
-            'id_producto'=>$this->request->getVar('pro'),
+            'id_pr
+            oducto'=>$this->request->getVar('pro'),
             'id_cliente'=>$this->request->getVar('cli'),
             'numcomproban'=>$this->request->getVar('num'),
             'fecha'=>$this->request->getVar('fec'),

@@ -12,13 +12,37 @@ class ProductoController extends BaseController
         $datos['s']=$producto->orderBy('id_producto','ASC')->findAll();
         return view('productos/productos',$datos);
     }
-
+    public function pdf(){
+        $pdf=new \Dompdf\Dompdf();
+        $producto= new ModelProducto();
+        $datos['s']=$producto->orderBy('id_producto','ASC')->findAll();;
+  
+        //$html="<h1>jajaja</h1>";
+        $option=$pdf->getOptions();
+        $option->set(array('isRemoteEnabled'=>true));
+        $pdf->setOptions($option);
+        
+        $pdf->load_html(view('productos/productospdf',$datos));
+      
+        $pdf->setPaper('A4','landscape');
+        $pdf->render();
+        $pdf->stream("Lista de productos");
+    }
     public function guardar(){
         $pro = new ModelProducto();
 
+        $produc=$this->request->getVar('nomb');
+        $producdo2=substr($produc,0,2);
+
+        $marca=$this->request->getVar('mar');
+        $marca2=substr($marca,0,2);
+
+        $juntos=$producdo2.$marca2;
+        
+
         $datos=[
         'producto'=>$this->request->getVar('nomb'),
-        'codigo'=>$this->request->getVar('cod'),
+        'codigo'=>$juntos,
         'categoria'=>$this->request->getVar('cat'),
         'marca'=>$this->request->getVar('mar'),
         ];
@@ -26,9 +50,9 @@ class ProductoController extends BaseController
 
         return $this->response->redirect(base_url('/productocontroller/index'));
         
+        
     }
-    //Aqui es BORRAR EL METODO (NO SE  HIZO NADA EN EL MODALCLIEN, asi que ni lo veas) es izi entender
-    //YA ESTAA
+    
     public function borrar(){
         $pro=new ModelProducto();
 
@@ -40,15 +64,24 @@ class ProductoController extends BaseController
         return $this->response->redirect(base_url('/productocontroller/index'));
         
     }
-    //aqui esta modificar es izi muy izi casi igual que el guardar datos
+    
     public function editar(){
         $pro=new ModelProducto();
 
         $id=$this->request->getVar('idproducto');
+
+        $produc=$this->request->getVar('NomU');
+        $producdo2=substr($produc,0,2);
+
+        $marca=$this->request->getVar('mar');
+        $marca2=substr($marca,0,2);
+
+        $juntos=$producdo2.$marca2;
+
         $datos=[
                    
             'producto'=>$this->request->getVar('NomU'),
-            'codigo'=>$this->request->getVar('cod'),
+            'codigo'=>$juntos,
             'categoria'=>$this->request->getVar('cat'),
             'marca'=>$this->request->getVar('mar'),
         ];

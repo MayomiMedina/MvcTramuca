@@ -14,7 +14,7 @@ class ModelProducto extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['producto','codigo','stock','categoria','marca'];
+    protected $allowedFields    = ['producto','codigo','stock','categoria','marca','precio'];
 
     // Dates
     protected $useTimestamps = false;

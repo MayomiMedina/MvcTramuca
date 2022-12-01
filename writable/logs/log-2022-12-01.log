@@ -1,0 +1,437 @@
+CRITICAL - 2022-12-01 08:31:59 --> Undefined array key ""
+in APPPATH\Controllers\RecuLoginController.php on line 22.
+ 1 APPPATH\Controllers\RecuLoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Controllers\\RecuLoginController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\RecuLoginController->nuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 08:49:23 --> Undefined array key "idusu"
+in APPPATH\Controllers\RecuLoginController.php on line 30.
+ 1 APPPATH\Controllers\RecuLoginController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idusu"', 'APPPATH\\Controllers\\RecuLoginController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\RecuLoginController->nuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 08:49:43 --> Undefined array key "idusu"
+in APPPATH\Controllers\RecuLoginController.php on line 30.
+ 1 APPPATH\Controllers\RecuLoginController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idusu"', 'APPPATH\\Controllers\\RecuLoginController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\RecuLoginController->nuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 08:50:16 --> Undefined array key "idusu"
+in APPPATH\Controllers\RecuLoginController.php on line 31.
+ 1 APPPATH\Controllers\RecuLoginController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idusu"', 'APPPATH\\Controllers\\RecuLoginController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\RecuLoginController->nuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 08:50:25 --> Undefined array key "idusu"
+in APPPATH\Controllers\RecuLoginController.php on line 31.
+ 1 APPPATH\Controllers\RecuLoginController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idusu"', 'APPPATH\\Controllers\\RecuLoginController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\RecuLoginController->nuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 09:22:27 --> Undefined variable $z
+in APPPATH\Views\almacen\almacen.php on line 54.
+ 1 APPPATH\Views\almacen\almacen.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $z', 'APPPATH\\Views\\almacen\\almacen.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\almacen\\almacen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('almacen/almacen', [], true)
+ 5 APPPATH\Controllers\AlmacenController.php(30): view('almacen/almacen')
+ 6 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 09:24:48 --> mb_detect_encoding(): Argument #1 ($string) must be of type string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 427.
+ 1 VENDORPATH\dompdf\dompdf\src\Dompdf.php(427): mb_detect_encoding([...], null, true)
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(394): Dompdf\Dompdf->loadHtml([...], null)
+ 3 APPPATH\Controllers\AlmacenController.php(39): Dompdf\Dompdf->load_html([...])
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 09:25:21 --> mb_detect_encoding(): Argument #1 ($string) must be of type string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 427.
+ 1 VENDORPATH\dompdf\dompdf\src\Dompdf.php(427): mb_detect_encoding([...], null, true)
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(394): Dompdf\Dompdf->loadHtml([...], null)
+ 3 APPPATH\Controllers\AlmacenController.php(39): Dompdf\Dompdf->load_html([...])
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 09:33:15 --> strtoupper(): Argument #1 ($string) must be of type string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 434.
+ 1 VENDORPATH\dompdf\dompdf\src\Dompdf.php(434): strtoupper([...])
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(394): Dompdf\Dompdf->loadHtml('almacen/almacenpdf', [...])
+ 3 APPPATH\Controllers\AlmacenController.php(39): Dompdf\Dompdf->load_html('almacen/almacenpdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\AlmacenController->pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlmacenController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-01 09:56:25 --> mysqli_sql_exception: Unknown column 'tb_compra.idcompra' in 'field list' in C:\xampp\htdocs\MvcTramuca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MvcTramuca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_comp...', 0)
+#1 C:\xampp\htdocs\MvcTramuca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_comp...')
+#2 C:\xampp\htdocs\MvcTramuca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_comp...')
+#3 C:\xampp\htdocs\MvcTramuca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_comp...', Array, false)
+#4 C:\xampp\htdocs\MvcTramuca\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MvcTramuca\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\MvcTramuca\app\Controllers\VentasController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(928): App\Controllers\VentasController->pdf()
+#8 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentasController))
+#9 C:\xampp\htdocs\MvcTramuca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\MvcTramuca\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\MvcTramuca\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-01 09:56:25 --> Unknown column 'tb_compra.idcompra' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_compra`.`idcompra`, `tb_producto`.`producto`, `tb_producto`.`codigo`, `tb_compra`.`numcomproban`, `tb_compra`.`fecha`, `tb_compra`.`cantidad`, `tb_compra`.`precio`, `tb_compra`.`total`, `tb_cliente`.`nombre`
+FROM `tb_boleta`
+JOIN `tb_producto` ON `tb_compra`.`id_producto`=`tb_producto`.`id_producto`
+JOIN `tb_cliente` ON `tb_compra`.`id_cliente`=`tb_cliente`.`id_cliente`
+ORDER BY `idcompra` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_compra`.`idcompra`, `tb_producto`.`producto`, `tb_producto`.`codigo`, `tb_compra`.`numcomproban`, `tb_compra`.`fecha`, `tb_compra`.`cantidad`, `tb_compra`.`precio`, `tb_compra`.`total`, `tb_cliente`.`nombre`
+FROM `tb_boleta`
+JOIN `tb_producto` ON `tb_compra`.`id_producto`=`tb_producto`.`id_producto`
+JOIN `tb_cliente` ON `tb_compra`.`id_cliente`=`tb_cliente`.`id_cliente`
+ORDER BY `idcompra` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_compra`.`idcompra`, `tb_producto`.`producto`, `tb_producto`.`codigo`, `tb_compra`.`numcomproban`, `tb_compra`.`fecha`, `tb_compra`.`cantidad`, `tb_compra`.`precio`, `tb_compra`.`total`, `tb_cliente`.`nombre`
+FROM `tb_boleta`
+JOIN `tb_producto` ON `tb_compra`.`id_producto`=`tb_producto`.`id_producto`
+JOIN `tb_cliente` ON `tb_compra`.`id_cliente`=`tb_cliente`.`id_cliente`
+ORDER BY `idcompra` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_compra`.`idcompra`, `tb_producto`.`producto`, `tb_producto`.`codigo`, `tb_compra`.`numcomproban`, `tb_compra`.`fecha`, `tb_compra`.`cantidad`, `tb_compra`.`precio`, `tb_compra`.`total`, `tb_cliente`.`nombre`
+FROM `tb_boleta`
+JOIN `tb_producto` ON `tb_compra`.`id_producto`=`tb_producto`.`id_producto`
+JOIN `tb_cliente` ON `tb_compra`.`id_cliente`=`tb_cliente`.`id_cliente`
+ORDER BY `idcompra` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\VentasController.php(34): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\VentasController->pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentasController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:09:43 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:09:47 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:09:55 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:10:22 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:10:55 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:10:57 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:10:57 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:10:57 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:10:57 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:10:58 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:10:58 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:00 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:15 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(45): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:28 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:29 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:29 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:29 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:30 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:30 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:31 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:33 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:34 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:35 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:36 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:38 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:39 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:11:39 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:12:01 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:12:48 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:12:49 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 13:12:56 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\MvcTramuca\system\Model.php on line 250
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Home.php(32): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(928): App\Controllers\Home->login2()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

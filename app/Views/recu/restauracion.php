@@ -28,14 +28,14 @@
 
 <div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh">
         <form style="background-color:white" class="border shadow p-5 rounded-2" style="width: 500px;" 
-        action="../codigos/recuperar.php" method="post">
+        action="<?= base_url(); ?>/RecuLoginController/nuevo" method="POST">
             
             <h2 class="text-center pt-2">NUEVA CONTRASEÑA</h2>
             <hr>
             <br>
             <div class="input">
                
-                <input type="text" class="form-control" id="usuario" placeholder="Ingresar usuario" name="usuario">
+                <input type="text" class="form-control" id="usuario" placeholder="Ingresar usuario" name="usuario" required>
             </div>
             <br>
             <div class="input">

@@ -47,13 +47,7 @@ body{
     <?= $this->renderSection('css') ?? ''; ?>
 </head>
     <body class="sb-nav-fixed">
-
-
     
-    <!-- <script src="<?= base_url(); ?>/build/code/modules/series-label.js"></script>
-    <script src="<?= base_url(); ?>/build/code/modules/exporting.js"></script>
-    <script src="<?= base_url(); ?>/build/code/modules/export-data.js"></script>
-    <script src="<?= base_url(); ?>/build/code/modules/accessibility.js"></script> -->
 
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
@@ -104,6 +98,7 @@ body{
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Ventas
                             </a>
+                            
                         </div>
                     </div>
                 </nav>

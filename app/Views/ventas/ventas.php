@@ -35,7 +35,7 @@ if($conexion->connect_errno){
        
 
           <div class="col-md-4 d-grid gap-1 pt-1">
-            <a  class="btn btn-info" href="../pdf/ventaspdf.php"> Imprimir </a>
+            <a  class="btn btn-info" href="<?=base_url();?>/VentasController/pdf"> Imprimir </a>
           </div>
           <p></p>
           <table class="table table-striped">          
@@ -193,10 +193,7 @@ if($conexion->connect_errno){
             <label for="recipient-name" class="col-form-label">Cantidad:</label>
             <input type="text" class="form-control" id="can" name="can" autocomplete="off" pattern="[0-9]+" required>
           </div>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Precio:</label>
-            <input type="text" class="form-control" id="pre" name="pre" autocomplete="off" pattern="[0-9]+" required>
-          </div>
+          
 
 
 
@@ -338,13 +335,6 @@ if($conexion->connect_errno){
             <label for="recipient-name" class="col-form-label">Cantidad:</label>
             <input type="text" class="form-control" id="can" name="can" autocomplete="off" pattern="[0-9]+" required>
           </div>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Precio:</label>
-            <input type="text" class="form-control" id="pre" name="pre" autocomplete="off" pattern="[0-9]+" required>
-          </div>
-
-
-
 
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

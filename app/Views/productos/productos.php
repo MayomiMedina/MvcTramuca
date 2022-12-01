@@ -21,7 +21,7 @@
                     </div>
              
                     <div class="col-md-4 d-grid gap-1 pt-1">
-                        <span class="btn btn-info " onclick="window.print()"> Imprimir</span>
+                        <a  class="btn btn-info" href="<?=base_url();?>/ProductoController/pdf"> Imprimir </a>
                     </div>
 
                     <hr>
@@ -119,11 +119,7 @@ var datatable=new DataTable(tabla);
             <div class="col-xs-6 col-sm-3 col-md-6 form-group">
               <label for="recipient-name" class="col-form-label">Nombre del producto:</label>
               <input type="text" class="form-control" id="NomU" name="NomU" >
-            </div>
-            <div class="col-xs-6 col-sm-3 col-md-3 form-group">
-              <label for="recipient-name" class="col-form-label">Código:</label>
-              <input type="text" class="form-control" id="cod" name="cod">
-            </div>                      
+            </div>                                 
           </div>
 
           <div class="row">
@@ -160,13 +156,13 @@ var datatable=new DataTable(tabla);
       // Extract info from data-bs-* attributes
       var recipient = button.getAttribute('data-bs-id')
       var pro = button.getAttribute('data-bs-pro')
-      var cod = button.getAttribute('data-bs-cod')      
+            
       var cat = button.getAttribute('data-bs-cat')
       var mar = button.getAttribute('data-bs-mar')
 
 
       var modalBodyInput = exampleModal.querySelector('#idproducto')
-      var codigo = exampleModal.querySelector('#cod')
+      
       var nombre = exampleModal.querySelector('#NomU')    
       var cate = exampleModal.querySelector('#cat')
       var marc = exampleModal.querySelector('#mar')
@@ -174,7 +170,7 @@ var datatable=new DataTable(tabla);
 
       modalBodyInput.value = recipient;
       nombre.value=pro;
-      codigo.value=cod;      
+            
       cate.value=cat;
       marc.value=mar;
 
@@ -209,10 +205,7 @@ var datatable=new DataTable(tabla);
       <div class="modal-body">
         <form method="POST" action="<?= base_url(); ?>/ProductoController/guardar"?">
         <div class="row">
-          <div class="mb-3 col-xs-6 col-sm-3 col-md-6 form-group">
-            <label for="recipient-name" class="col-form-label">Código:</label>
-            <input type="text" class="form-control" id="cod" name="cod">
-          </div>
+
           <div class="mb-3 col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Nombre del producto:</label>
             <input type="text" class="form-control" id="nomb" name="nomb">
@@ -222,7 +215,7 @@ var datatable=new DataTable(tabla);
           <div class="mb-3 col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Categoría:</label>
             <input type="text" class="form-control" id="cat" name="cat">
-          </div>
+          
         </div>
           <div class="mb-3 col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Marca:</label>

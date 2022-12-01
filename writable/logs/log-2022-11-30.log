@@ -1,3 +1,4 @@
+
 CRITICAL - 2022-11-30 14:38:54 --> Undefined array key "cargo"
 in APPPATH\Views\crudUsuarios\crudUsuarios.php on line 42.
  1 APPPATH\Views\crudUsuarios\crudUsuarios.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cargo"', 'APPPATH\\Views\\crudUsuarios\\crudUsuarios.php', 42)
@@ -379,3 +380,4 @@ in APPPATH\Models\UsersModel.php on line 68.
  4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+

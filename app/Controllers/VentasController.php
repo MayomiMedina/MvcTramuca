@@ -21,19 +21,41 @@ class VentasController extends BaseController
                 
         return view('ventas/ventas',$datos);
     }
+    public function pdf(){
+        $pdf=new \Dompdf\Dompdf();
+        $compra=new ModelVentas();
+
+        $datos['s']=$compra->select('tb_boleta.id_boleta,tb_boleta.id_cliente,tb_boleta.id_producto,tb_boleta.fecha,
+        tb_boleta.RUC,tb_boleta.descripcion,tb_boleta.comprobante,tb_boleta.cantidad,tb_boleta.precio,
+        tb_boleta.total,tb_producto.producto,tb_cliente.nombre')
+         ->join('tb_producto','tb_boleta.id_producto=tb_producto.id_producto')
+         ->join('tb_cliente','tb_boleta.id_cliente=tb_cliente.id_cliente')
+         ->orderBy('id_boleta','ASC')
+         ->findAll();
+  
+        //$html="<h1>jajaja</h1>";
+        $option=$pdf->getOptions();
+        $option->set(array('isRemoteEnabled'=>true));
+        $pdf->setOptions($option);
+        
+        $pdf->load_html(view('ventas/ventaspdf',$datos));
+      
+        $pdf->setPaper('A4','landscape');
+        $pdf->render();
+        $pdf->stream("Ventas Lista");
+    }
     public function guardar(){
         $venta=new ModelVentas();
         $pro=new ModelProducto();
 
-        $uno=$this->request->getVar('can');
-        $dos=$this->request->getVar('pre');
-        $canmaspre=$uno+$dos;
-
         $idpro=$this->request->getVar('pro');
 
-        $produ=$pro->select('stock')
+        $produ=$pro->select('stock,precio')
                 ->where('id_producto',$idpro)
                 ->first();
+        
+        $uno=$this->request->getVar('can');
+        $canmaspre=$uno*$produ['precio'];
 
         $tota=$produ['stock']-$uno;
         if($tota<0){
@@ -53,7 +75,7 @@ class VentasController extends BaseController
                 'id_cliente'=>$this->request->getVar('cli'),
                 'id_producto'=>$this->request->getVar('pro'),                                            
                 'cantidad'=>$this->request->getVar('can'),
-                'precio'=>$this->request->getVar('pre'),
+                'precio'=>$produ['precio'],
                 'total'=>$canmaspre
             ];
             $datos2=array(
@@ -71,16 +93,19 @@ class VentasController extends BaseController
         $venta=new ModelVentas();
         $pro=new ModelProducto();
 
-        $uno=$this->request->getVar('can');
-        $precio=$this->request->getVar('pre');
-        $total=$uno*$precio;
-
         $idpro=$this->request->getVar('pro');
+
+        $stockpro=$pro->select('stock,precio')
+        ->where('id_producto',$idpro)
+        ->first();
+
+        $uno=$this->request->getVar('can');        
+        $total=$uno*$stockpro['precio'];
+
+        
         $idven=$this->request->getVar('idcompra');
 
-        $stockpro=$pro->select('stock')
-                      ->where('id_producto',$idpro)
-                      ->first();
+        
         $canventas=$venta->select('cantidad')
                         ->where('id_boleta',$idven)
                         ->first();
@@ -108,7 +133,7 @@ class VentasController extends BaseController
                 'id_cliente'=>$this->request->getVar('cli'),
                 'id_producto'=>$this->request->getVar('pro'),                                            
                 'cantidad'=>$this->request->getVar('can'),
-                'precio'=>$this->request->getVar('pre'),
+                'precio'=>$stockpro['precio'],
                 'total'=>$total
             ];
             $pro->update($idpro,$datostock);
@@ -139,7 +164,7 @@ class VentasController extends BaseController
                 'id_cliente'=>$this->request->getVar('cli'),
                 'id_producto'=>$this->request->getVar('pro'),                                            
                 'cantidad'=>$this->request->getVar('can'),
-                'precio'=>$this->request->getVar('pre'),
+                'precio'=>$stockpro['precio'],
                 'total'=>$total
             ];
             $pro->update($idpro,$datostock);

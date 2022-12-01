@@ -33,10 +33,10 @@ if($conexion->connect_errno){
                     </div>
           
                     <div class="col-md-4 d-grid gap-1 pt-1">
-                        <a  class="btn btn-info" href="../pdf/compraspdf.php"> Imprimir </a>
+                        <a  class="btn btn-info" href="<?=base_url();?>/ComprasController/pdf"> Imprimir </a>
                     </div>
                     <p></p>
-                    <table  class="table table-striped" id="tablapro" >
+                    <table id="tablaproa" class="display" style="width:100%" >
                       <thead class="thead-dark">
                       <tr class="table-bordered">                         
                         <th>Nombre del producto</th>
@@ -96,8 +96,9 @@ if($conexion->connect_errno){
     </div>    
 </div>
 <script>
-var tabla=document.querySelector("#tablapro");
+var tabla=document.querySelector("#tablaproa");
 var datatable=new DataTable(tabla);
+
 </script> 
 
 <div class="modal fade" id="eliminar" tabindex="-1" aria-labelledby="exampleModalLabelUp" aria-hidden="true">

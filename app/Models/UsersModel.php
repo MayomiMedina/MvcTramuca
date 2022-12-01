@@ -9,7 +9,7 @@ class UsersModel extends Model
 {
     protected $DBGroup          = 'default';
     protected $table            = 'usuario';
-    protected $primaryKey       = 'id';
+    protected $primaryKey       = 'idusu';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'object';

@@ -33,22 +33,8 @@ class Home extends BaseController
         return $this->response->setJSON([
             'estado' => 'success',
             'msg' => 'Iniciando sesión',
-            'ruta' => base_url(((int) ($user->idcargo)) === 1 ? 'Admin':'ventas'),
-            //'ruta' => base_url(((int) ($user->idcargo)) === 1 ? 'AdminUsuController':'AdminUsuController'),
+            'ruta' => base_url(((int) ($user->idcargo)) === 3 ? 'Admin':'AdminUsuController'),            
         ]);        
     }
-    public function login2(){
-        $pro=new UsersModel();
-        $usu=$this->request->getVar('usuario');
-        $con=$this->request->getVar('contrase');
-
-        $vari=$pro->where('usuario',$usu)
-                    ->where('contra',$con)
-                    ->first();
-        if($usu==$vari['usuario']){
-            echo 'gg';
-        }else{
-            echo'ss';
-        }
-    }
+    
 }

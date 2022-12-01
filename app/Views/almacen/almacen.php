@@ -34,7 +34,7 @@ if($conexion->connect_errno){
 
 
                     <div class="col-md-4 d-grid gap-1 pt-1">
-                    <a  class="btn btn-info" href="../pdf/almacen.php"> Imprimir </a>
+                    <a  class="btn btn-info" href="<?=base_url();?>/AlmacenController/pdf"> Imprimir </a>
                     </div>
                     <p></p>                  
                     <table class="table table-striped table-bordered" id="tablapro">
@@ -169,6 +169,10 @@ var datatable=new DataTable(tabla);
             ?>                
             </select>
           </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Precio:</label>
+            <input type="number" class="form-control" id="pre" name="pre" autocomplete="off">
+          </div>
 
           <div class="modal-footer">
                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -262,6 +266,10 @@ var datatable=new DataTable(tabla);
               }
             ?>              
             </select>
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Precio:</label>
+            <input type="number" class="form-control" id="pre" name="pre" autocomplete="off">
           </div>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Seccion:</label>

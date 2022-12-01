@@ -4,22 +4,38 @@
 <?php $this->endSection(); ?>
 
 <?php $this->section('contenido'); ?>
-    <figure class="highcharts-figure">
+  <br>
+  <br>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+     
+      <div class="card-body">
+        <h5 class="card-title">Productos más vendidos</h5>
+
+    </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Image/camion.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+    <!--  <h5 class="card-title">Card title</h5> -->
+        <figure class="highcharts-figure">
         <div id="container"></div>
     </figure>
-<?php $this->endSection(); ?>
-
-
-<?php $this->section('js'); ?>
-    <script src="<?= base_url(); ?>/build/code/highcharts.js"></script>
-    <script type="text/javascript">
-        Highcharts.chart('container', {
+        <script>
+        Highcharts.chart('container',{
             chart: {
                 type: 'column'
+             
             },
             title: {
-                align: 'left',
-                text: 'Los productos mas comprados'
+               				
+                align: 'center',
+                text: 'Los productos más comprados'
+               
             },
             subtitle: { text: '' },
             accessibility: {
@@ -53,12 +69,14 @@
 
             responsive: {
                 rules: [{
-                    condition: { maxWidth: 500 },
+                    condition: { maxWidth: 300 },
                     chartOptions: {
                         legend: {
                             layout: 'horizontal',
                             align: 'center',
                             verticalAlign: 'bottom'
+                            
+                            
                         }
                     }
                 }]
@@ -66,4 +84,19 @@
 
         });
     </script>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+<?php $this->endSection(); ?>
+
+
+<?php $this->section('js'); ?>
+
+    <script src="<?= base_url(); ?>/build/code/highcharts.js"></script>
+ 
+   
 <?php $this->endSection(); ?>

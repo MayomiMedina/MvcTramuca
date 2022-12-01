@@ -13,14 +13,17 @@ class AdminUsuController extends BaseController
         return view('crudUsuarios/crudUsuarios', $datos);
     }
 public function guardar(){
-    $usu=new ModelAdminUsu();
 
+
+    $usu=new ModelAdminUsu();
+$pass=$this->request->getVar('con');
+$pass_cifrado= password_hash($pass,PASSWORD_DEFAULT);
     $datos=[
     'idusu'=>$this->request->getVar('idusu'),
     'nombre'=>$this->request->getVar('nom'),
     'apellidos'=>$this->request->getVar('ape'),
     'usuario'=>$this->request->getVar('usu'),
-    'contra'=>$this->request->getVar('con'),
+    'contra'=>$pass_cifrado,
     'area'=>$this->request->getVar('are'),
     'estado'=>$this->request->getVar('est'),
     'idcargo'=>$this->request->getVar('car')

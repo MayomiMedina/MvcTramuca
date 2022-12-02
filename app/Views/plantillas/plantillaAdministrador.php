@@ -96,7 +96,7 @@ body{
                                 Compras
                             </a>                                           
                             <a class="nav-link" href="<?= base_url(); ?>/VentasController">
-                                <div class="sb-nav-link-icon"><i class="fa-duotone fa-handshake-angle"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Ventas
                             </a>
 

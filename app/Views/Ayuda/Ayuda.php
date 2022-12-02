@@ -13,12 +13,13 @@
   <div class="col-md-6 position-static p-4 pl-md-0">
     <h5 class="mt-0">Estimado usuario</h5>
     <p>Dar click en los links adjuntos para visualizar los manuales de videos,donde manera interactiva se va enseñar el funcionamiento de las secciones del sistema.</p>
-    <a href="https://drive.google.com/file/d/1dvZn42ABiaIKftaYrYvox0rrbeH5c2jJ/view?usp=sharing" class="stretched-link">Login</a><br>
-    <a href="https://drive.google.com/file/d/19wTWtbtpXYXzXFjfOA9EftiJMUc6PLvP/view?usp=sharing" class="stretched-link">Recuperar Contraseña</a><br>
-    <a href="https://drive.google.com/file/d/1RRBw_m-MUeMbusspRPp_l9FkCXarf8VD/view?usp=sharing" class="stretched-link">Poner Producto a Almacen</a><br>
-    <a href="https://drive.google.com/file/d/1QRbgrXMIok_AZSjVm6l1pXmE1ZiJsGOs/view?usp=sharing" class="stretched-link">Realizar Venta</a><br>
-  </div>
-</div>
+    <a href="https://drive.google.com/file/d/1dvZn42ABiaIKftaYrYvox0rrbeH5c2jJ/view?usp=sharing" >Login</a><br>
+    <a href="https://drive.google.com/file/d/19wTWtbtpXYXzXFjfOA9EftiJMUc6PLvP/view?usp=sharing" >Recuperar Contraseña</a><br>
+    <a href="https://drive.google.com/file/d/1RRBw_m-MUeMbusspRPp_l9FkCXarf8VD/view?usp=sharing" >Poner Producto a Almacen</a><br>
+    <a href="https://drive.google.com/file/d/1QRbgrXMIok_AZSjVm6l1pXmE1ZiJsGOs/view?usp=sharing" >Realizar Venta</a><br>
+    </div>
+  
+
 <?php $this->endSection(); ?>
 
 

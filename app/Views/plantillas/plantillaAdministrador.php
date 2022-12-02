@@ -99,7 +99,12 @@ body{
                                 <div class="sb-nav-link-icon"><i class="fa-duotone fa-handshake-angle"></i></div>
                                 Ventas
                             </a>
-                            
+
+                            <a class="nav-link" href="<?= base_url(); ?>/AyudaController">
+                                <div class="sb-nav-link-icon"><i class="fa-brands fa-hire-a-helper"></i></div>
+                                Ayuda
+                            </a>
+
                         </div>
                     </div>
                 </nav>

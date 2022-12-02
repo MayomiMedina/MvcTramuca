@@ -133,7 +133,7 @@ var datatable=new DataTable(tabla);
       <div class="modal-body">
         <form method="POST" action="<?=base_url();?>/ComprasController/editar"?>
           
-            <input type="text" class="form-control" id="idcompra" name="idcompra">
+            <input type="hidden" class="form-control" id="idcompra" name="idcompra">
         <div class="row">            
           <div class="col-xs-6 col-sm-3 col-md-6 form-group">
             <label for="recipient-name" class="col-form-label">Codigo:</label>

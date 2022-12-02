@@ -38,7 +38,7 @@ if($conexion->connect_errno){
             <a  class="btn btn-info" href="<?=base_url();?>/VentasController/pdf"> Imprimir </a>
           </div>
           <p></p>
-          <table class="table table-striped">          
+          <table class="table table-striped" id="tablaproa">          
             <thead class="thead-dark">
               <tr class="table-bordered">
                 <th>Comprobante</th>
@@ -100,7 +100,11 @@ if($conexion->connect_errno){
 
 </div>
 </div>
+<script>
+var tabla=document.querySelector("#tablaproa");
+var datatable=new DataTable(tabla);
 
+</script>
 <div class="modal fade" id="eliminaralmacen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">

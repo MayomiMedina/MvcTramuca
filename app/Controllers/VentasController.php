@@ -69,7 +69,7 @@ class VentasController extends BaseController
         }else{
             $datos=[
                 'fecha'=>$this->request->getVar('fec'),
-                'ruc'=>$this->request->getVar('ruc'),
+                'RUC'=>$this->request->getVar('ruc'),
                 'descripcion'=>$this->request->getVar('des'),
                 'comprobante'=>$this->request->getVar('com'),
                 'id_cliente'=>$this->request->getVar('cli'),
@@ -127,7 +127,7 @@ class VentasController extends BaseController
             );
             $datos=[
                 'fecha'=>$this->request->getVar('fec'),
-                'ruc'=>$this->request->getVar('ruc'),
+                'RUC'=>$this->request->getVar('ruc'),
                 'descripcion'=>$this->request->getVar('des'),
                 'comprobante'=>$this->request->getVar('com'),
                 'id_cliente'=>$this->request->getVar('cli'),
@@ -158,7 +158,7 @@ class VentasController extends BaseController
             );
             $datos=[
                 'fecha'=>$this->request->getVar('fec'),
-                'ruc'=>$this->request->getVar('ruc'),
+                'RUC'=>$this->request->getVar('ruc'),
                 'descripcion'=>$this->request->getVar('des'),
                 'comprobante'=>$this->request->getVar('com'),
                 'id_cliente'=>$this->request->getVar('cli'),

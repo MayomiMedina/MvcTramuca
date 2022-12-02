@@ -26,6 +26,7 @@
        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
        <script src="https://code.highcharts.com/highcharts.js"></script>
+       
 
 
        <link href="https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.css" rel="stylesheet" type="text/css">
@@ -95,7 +96,7 @@ body{
                                 Compras
                             </a>                                           
                             <a class="nav-link" href="<?= base_url(); ?>/VentasController">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-duotone fa-handshake-angle"></i></div>
                                 Ventas
                             </a>
                             
